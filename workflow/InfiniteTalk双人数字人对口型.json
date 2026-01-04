@@ -1,0 +1,4821 @@
+{
+  "id": "31a6376d-ea17-4e2a-859b-95d9f15322b5",
+  "revision": 0,
+  "last_node_id": 88,
+  "last_link_id": 2937,
+  "nodes": [
+    {
+      "id": 3,
+      "type": "Reroute",
+      "pos": [
+        2112.845703125,
+        1869.742431640625
+      ],
+      "size": [
+        75,
+        26
+      ],
+      "flags": {},
+      "order": 28,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "",
+          "type": "*",
+          "widget": {
+            "name": "value"
+          },
+          "link": 3
+        }
+      ],
+      "outputs": [
+        {
+          "name": "",
+          "type": "INT",
+          "links": [
+            18
+          ]
+        }
+      ],
+      "properties": {
+        "showOutputText": false,
+        "horizontal": false,
+        "ue_properties": {
+          "version": "7.5.2",
+          "widget_ue_connectable": {},
+          "input_ue_unconnectable": {}
+        }
+      }
+    },
+    {
+      "id": 4,
+      "type": "Reroute",
+      "pos": [
+        2917.349609375,
+        1945.10546875
+      ],
+      "size": [
+        75,
+        26
+      ],
+      "flags": {},
+      "order": 0,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "",
+          "type": "*"
+        }
+      ],
+      "outputs": [
+        {
+          "name": "",
+          "type": "*",
+          "links": [
+            38
+          ]
+        }
+      ],
+      "properties": {
+        "showOutputText": false,
+        "horizontal": false,
+        "ue_properties": {
+          "version": "7.5.2",
+          "widget_ue_connectable": {},
+          "input_ue_unconnectable": {}
+        }
+      }
+    },
+    {
+      "id": 5,
+      "type": "Reroute",
+      "pos": [
+        2913.55224609375,
+        2462.750732421875
+      ],
+      "size": [
+        75,
+        26
+      ],
+      "flags": {},
+      "order": 54,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "",
+          "type": "*",
+          "link": 4
+        }
+      ],
+      "outputs": [
+        {
+          "name": "",
+          "type": "MULTITALK_EMBEDS",
+          "links": [
+            39
+          ]
+        }
+      ],
+      "properties": {
+        "showOutputText": false,
+        "horizontal": false,
+        "ue_properties": {
+          "version": "7.5.2",
+          "widget_ue_connectable": {},
+          "input_ue_unconnectable": {}
+        }
+      }
+    },
+    {
+      "id": 7,
+      "type": "PlaySound|pysssss",
+      "pos": [
+        3841.87060546875,
+        1543.1212158203125
+      ],
+      "size": [
+        270,
+        106
+      ],
+      "flags": {
+        "collapsed": true
+      },
+      "order": 58,
+      "mode": 0,
+      "inputs": [
+        {
+          "label": "输入",
+          "name": "any",
+          "type": "*",
+          "link": 2888
+        },
+        {
+          "label": "模式",
+          "name": "mode",
+          "type": "COMBO",
+          "widget": {
+            "name": "mode"
+          }
+        },
+        {
+          "label": "音量",
+          "name": "volume",
+          "type": "FLOAT",
+          "widget": {
+            "name": "volume"
+          }
+        },
+        {
+          "name": "file",
+          "type": "STRING",
+          "widget": {
+            "name": "file"
+          }
+        }
+      ],
+      "outputs": [
+        {
+          "name": "*",
+          "shape": 6,
+          "type": "*"
+        }
+      ],
+      "properties": {
+        "cnr_id": "comfyui-custom-scripts",
+        "ver": "f2838ed5e59de4d73cde5c98354b87a8d3200190",
+        "Node name for S&R": "PlaySound|pysssss",
+        "ue_properties": {
+          "version": "7.5.2",
+          "widget_ue_connectable": {},
+          "input_ue_unconnectable": {}
+        }
+      },
+      "widgets_values": [
+        "always",
+        0.4,
+        "notify.mp3"
+      ]
+    },
+    {
+      "id": 11,
+      "type": "Reroute",
+      "pos": [
+        2114.03759765625,
+        2461.380859375
+      ],
+      "size": [
+        75,
+        26
+      ],
+      "flags": {},
+      "order": 51,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "",
+          "type": "*",
+          "link": 9
+        }
+      ],
+      "outputs": [
+        {
+          "name": "",
+          "type": "MULTITALK_EMBEDS",
+          "links": [
+            4
+          ]
+        }
+      ],
+      "properties": {
+        "showOutputText": false,
+        "horizontal": false,
+        "ue_properties": {
+          "version": "7.5.2",
+          "widget_ue_connectable": {},
+          "input_ue_unconnectable": {}
+        }
+      }
+    },
+    {
+      "id": 14,
+      "type": "Reroute",
+      "pos": [
+        2113.19482421875,
+        1906.581787109375
+      ],
+      "size": [
+        75,
+        26
+      ],
+      "flags": {},
+      "order": 29,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "",
+          "type": "*",
+          "widget": {
+            "name": "value"
+          },
+          "link": 11
+        }
+      ],
+      "outputs": [
+        {
+          "name": "",
+          "type": "INT",
+          "links": [
+            19
+          ]
+        }
+      ],
+      "properties": {
+        "showOutputText": false,
+        "horizontal": false,
+        "ue_properties": {
+          "version": "7.5.2",
+          "widget_ue_connectable": {},
+          "input_ue_unconnectable": {}
+        }
+      }
+    },
+    {
+      "id": 20,
+      "type": "Reroute",
+      "pos": [
+        2603.96484375,
+        1869.46044921875
+      ],
+      "size": [
+        75,
+        26
+      ],
+      "flags": {},
+      "order": 39,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "",
+          "type": "*",
+          "widget": {
+            "name": "value"
+          },
+          "link": 18
+        }
+      ],
+      "outputs": [
+        {
+          "name": "",
+          "type": "INT",
+          "links": [
+            46
+          ]
+        }
+      ],
+      "properties": {
+        "showOutputText": false,
+        "horizontal": false,
+        "ue_properties": {
+          "version": "7.5.2",
+          "widget_ue_connectable": {},
+          "input_ue_unconnectable": {}
+        }
+      }
+    },
+    {
+      "id": 21,
+      "type": "Reroute",
+      "pos": [
+        2604.606201171875,
+        1905.51171875
+      ],
+      "size": [
+        75,
+        26
+      ],
+      "flags": {},
+      "order": 40,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "",
+          "type": "*",
+          "widget": {
+            "name": "value"
+          },
+          "link": 19
+        }
+      ],
+      "outputs": [
+        {
+          "name": "",
+          "type": "INT",
+          "links": [
+            47
+          ]
+        }
+      ],
+      "properties": {
+        "showOutputText": false,
+        "horizontal": false,
+        "ue_properties": {
+          "version": "7.5.2",
+          "widget_ue_connectable": {},
+          "input_ue_unconnectable": {}
+        }
+      }
+    },
+    {
+      "id": 23,
+      "type": "Reroute",
+      "pos": [
+        2602.55859375,
+        1833.445556640625
+      ],
+      "size": [
+        75,
+        26
+      ],
+      "flags": {},
+      "order": 47,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "",
+          "type": "*",
+          "link": 21
+        }
+      ],
+      "outputs": [
+        {
+          "name": "",
+          "type": "IMAGE",
+          "links": [
+            44
+          ]
+        }
+      ],
+      "properties": {
+        "showOutputText": false,
+        "horizontal": false,
+        "ue_properties": {
+          "version": "7.5.2",
+          "widget_ue_connectable": {},
+          "input_ue_unconnectable": {}
+        }
+      }
+    },
+    {
+      "id": 25,
+      "type": "SetNode",
+      "pos": [
+        2110.01904296875,
+        2545.67333984375
+      ],
+      "size": [
+        210,
+        34
+      ],
+      "flags": {
+        "collapsed": true
+      },
+      "order": 52,
+      "mode": 0,
+      "inputs": [
+        {
+          "label": "输入",
+          "name": "AUDIO",
+          "type": "AUDIO",
+          "link": 22
+        }
+      ],
+      "outputs": [
+        {
+          "label": "输出",
+          "name": "*",
+          "type": "*",
+          "links": []
+        }
+      ],
+      "title": "Set_AUDIO",
+      "properties": {
+        "previousName": "",
+        "ue_properties": {
+          "version": "7.5.2",
+          "widget_ue_connectable": {},
+          "input_ue_unconnectable": {}
+        }
+      },
+      "widgets_values": [
+        "提取人声"
+      ]
+    },
+    {
+      "id": 26,
+      "type": "easy showAnything",
+      "pos": [
+        2105.25732421875,
+        2594.90771484375
+      ],
+      "size": [
+        210.80685424804688,
+        88
+      ],
+      "flags": {},
+      "order": 53,
+      "mode": 0,
+      "inputs": [
+        {
+          "label": "输入任何",
+          "name": "anything",
+          "shape": 7,
+          "type": "*",
+          "link": 23
+        }
+      ],
+      "outputs": [
+        {
+          "name": "output",
+          "type": "*"
+        }
+      ],
+      "properties": {
+        "cnr_id": "comfyui-easy-use",
+        "ver": "23d9c365bda79f4d45d6d6de4746b3fcd993d943",
+        "Node name for S&R": "easy showAnything",
+        "ue_properties": {
+          "version": "7.5.2",
+          "widget_ue_connectable": {},
+          "input_ue_unconnectable": {}
+        }
+      },
+      "widgets_values": [
+        "214"
+      ]
+    },
+    {
+      "id": 28,
+      "type": "Reroute",
+      "pos": [
+        2433.853759765625,
+        1833.6575927734375
+      ],
+      "size": [
+        75,
+        26
+      ],
+      "flags": {},
+      "order": 38,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "",
+          "type": "*",
+          "link": 24
+        }
+      ],
+      "outputs": [
+        {
+          "name": "",
+          "type": "IMAGE",
+          "links": [
+            21
+          ]
+        }
+      ],
+      "properties": {
+        "showOutputText": false,
+        "horizontal": false,
+        "ue_properties": {
+          "version": "7.5.2",
+          "widget_ue_connectable": {},
+          "input_ue_unconnectable": {}
+        }
+      }
+    },
+    {
+      "id": 63,
+      "type": "Reroute",
+      "pos": [
+        1607.6024169921875,
+        2603.74951171875
+      ],
+      "size": [
+        75,
+        26
+      ],
+      "flags": {},
+      "order": 42,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "",
+          "type": "*",
+          "link": 215
+        }
+      ],
+      "outputs": [
+        {
+          "name": "",
+          "type": "AUDIO",
+          "links": [
+            220
+          ]
+        }
+      ],
+      "properties": {
+        "showOutputText": false,
+        "horizontal": false,
+        "ue_properties": {
+          "version": "7.5.2",
+          "widget_ue_connectable": {},
+          "input_ue_unconnectable": {}
+        }
+      }
+    },
+    {
+      "id": 68,
+      "type": "Reroute",
+      "pos": [
+        1607.601806640625,
+        2649.205810546875
+      ],
+      "size": [
+        75,
+        26
+      ],
+      "flags": {},
+      "order": 44,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "",
+          "type": "*",
+          "link": 250
+        }
+      ],
+      "outputs": [
+        {
+          "name": "",
+          "type": "AUDIO",
+          "links": [
+            257
+          ]
+        }
+      ],
+      "properties": {
+        "showOutputText": false,
+        "horizontal": false,
+        "ue_properties": {
+          "version": "7.5.2",
+          "widget_ue_connectable": {},
+          "input_ue_unconnectable": {}
+        }
+      }
+    },
+    {
+      "id": 66,
+      "type": "AudioSeparation",
+      "pos": [
+        1353.884033203125,
+        2671.819580078125
+      ],
+      "size": [
+        218.6367950439453,
+        166
+      ],
+      "flags": {},
+      "order": 31,
+      "mode": 0,
+      "inputs": [
+        {
+          "label": "音频",
+          "name": "audio",
+          "type": "AUDIO",
+          "link": 232
+        },
+        {
+          "label": "分段淡入淡出形状",
+          "name": "chunk_fade_shape",
+          "shape": 7,
+          "type": "COMBO",
+          "widget": {
+            "name": "chunk_fade_shape"
+          }
+        },
+        {
+          "label": "分段长度（秒）",
+          "name": "chunk_length",
+          "shape": 7,
+          "type": "FLOAT",
+          "widget": {
+            "name": "chunk_length"
+          }
+        },
+        {
+          "label": "分段重叠（秒）",
+          "name": "chunk_overlap",
+          "shape": 7,
+          "type": "FLOAT",
+          "widget": {
+            "name": "chunk_overlap"
+          }
+        }
+      ],
+      "outputs": [
+        {
+          "label": "低音",
+          "name": "Bass",
+          "type": "AUDIO",
+          "links": []
+        },
+        {
+          "label": "鼓",
+          "name": "Drums",
+          "type": "AUDIO",
+          "links": []
+        },
+        {
+          "label": "其他",
+          "name": "Other",
+          "type": "AUDIO",
+          "links": []
+        },
+        {
+          "label": "人声",
+          "name": "Vocals",
+          "type": "AUDIO",
+          "links": [
+            239,
+            250
+          ]
+        }
+      ],
+      "properties": {
+        "cnr_id": "audio-separation-nodes-comfyui",
+        "ver": "31a4567726e035097cc2d1f767767908a6fda2ea",
+        "Node name for S&R": "AudioSeparation",
+        "ue_properties": {
+          "version": "7.5.2",
+          "widget_ue_connectable": {},
+          "input_ue_unconnectable": {}
+        }
+      },
+      "widgets_values": [
+        "linear",
+        10,
+        0.1
+      ]
+    },
+    {
+      "id": 22,
+      "type": "MathExpression|pysssss",
+      "pos": [
+        1589.48291015625,
+        3054.28125
+      ],
+      "size": [
+        210,
+        128
+      ],
+      "flags": {
+        "collapsed": false
+      },
+      "order": 48,
+      "mode": 0,
+      "inputs": [
+        {
+          "label": "a",
+          "name": "a",
+          "shape": 7,
+          "type": "INT,FLOAT,IMAGE,LATENT",
+          "link": 20
+        },
+        {
+          "label": "b",
+          "name": "b",
+          "shape": 7,
+          "type": "INT,FLOAT,IMAGE,LATENT"
+        },
+        {
+          "label": "c",
+          "name": "c",
+          "shape": 7,
+          "type": "INT,FLOAT,IMAGE,LATENT"
+        },
+        {
+          "label": "表达式",
+          "name": "expression",
+          "type": "INT,FLOAT,IMAGE,LATENT",
+          "widget": {
+            "name": "expression"
+          }
+        }
+      ],
+      "outputs": [
+        {
+          "label": "整数",
+          "name": "INT",
+          "type": "INT",
+          "links": [
+            365
+          ]
+        },
+        {
+          "label": "浮点",
+          "name": "FLOAT",
+          "type": "FLOAT"
+        }
+      ],
+      "properties": {
+        "cnr_id": "comfyui-custom-scripts",
+        "ver": "f2838ed5e59de4d73cde5c98354b87a8d3200190",
+        "Node name for S&R": "MathExpression|pysssss",
+        "ue_properties": {
+          "version": "7.5.2",
+          "widget_ue_connectable": {},
+          "input_ue_unconnectable": {}
+        }
+      },
+      "widgets_values": [
+        "a*24+1"
+      ]
+    },
+    {
+      "id": 67,
+      "type": "SetNode",
+      "pos": [
+        1612.6024169921875,
+        2760.566650390625
+      ],
+      "size": [
+        210,
+        50
+      ],
+      "flags": {
+        "collapsed": true
+      },
+      "order": 43,
+      "mode": 0,
+      "inputs": [
+        {
+          "label": "输入",
+          "name": "AUDIO",
+          "type": "AUDIO",
+          "link": 239
+        }
+      ],
+      "outputs": [
+        {
+          "label": "输出",
+          "name": "*",
+          "type": "*"
+        }
+      ],
+      "title": "Set_AUDIO",
+      "properties": {
+        "previousName": "右边人物音频",
+        "ue_properties": {
+          "version": "7.5.2",
+          "widget_ue_connectable": {},
+          "input_ue_unconnectable": {}
+        }
+      },
+      "widgets_values": [
+        "右边人物音频"
+      ]
+    },
+    {
+      "id": 69,
+      "type": "Note",
+      "pos": [
+        522.453125,
+        2450.5029296875
+      ],
+      "size": [
+        268.6583251953125,
+        88
+      ],
+      "flags": {},
+      "order": 1,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [],
+      "properties": {
+        "ue_properties": {
+          "version": "7.5.2",
+          "widget_ue_connectable": {},
+          "input_ue_unconnectable": {}
+        }
+      },
+      "widgets_values": [
+        "这里上传只有左边人物的音频"
+      ],
+      "color": "#432",
+      "bgcolor": "#653"
+    },
+    {
+      "id": 45,
+      "type": "WanVideoImageToVideoMultiTalk",
+      "pos": [
+        2750,
+        1630
+      ],
+      "size": [
+        281.7828063964844,
+        290
+      ],
+      "flags": {},
+      "order": 49,
+      "mode": 0,
+      "inputs": [
+        {
+          "label": "vae",
+          "name": "vae",
+          "type": "WANVAE",
+          "link": 2928
+        },
+        {
+          "label": "起始图像",
+          "name": "start_image",
+          "shape": 7,
+          "type": "IMAGE",
+          "link": 44
+        },
+        {
+          "label": "CLIP嵌入",
+          "name": "clip_embeds",
+          "shape": 7,
+          "type": "WANVIDIMAGE_CLIPEMBEDS",
+          "link": 45
+        },
+        {
+          "label": "宽",
+          "name": "width",
+          "type": "INT",
+          "widget": {
+            "name": "width"
+          },
+          "link": 46
+        },
+        {
+          "label": "高",
+          "name": "height",
+          "type": "INT",
+          "widget": {
+            "name": "height"
+          },
+          "link": 47
+        },
+        {
+          "label": "帧窗口大小",
+          "name": "frame_window_size",
+          "type": "INT",
+          "widget": {
+            "name": "frame_window_size"
+          }
+        },
+        {
+          "label": "运动帧",
+          "name": "motion_frame",
+          "type": "INT",
+          "widget": {
+            "name": "motion_frame"
+          }
+        },
+        {
+          "label": "强制卸载",
+          "name": "force_offload",
+          "type": "BOOLEAN",
+          "widget": {
+            "name": "force_offload"
+          }
+        },
+        {
+          "label": "颜色匹配",
+          "name": "colormatch",
+          "type": "COMBO",
+          "widget": {
+            "name": "colormatch"
+          }
+        },
+        {
+          "label": "分块VAE",
+          "name": "tiled_vae",
+          "shape": 7,
+          "type": "BOOLEAN",
+          "widget": {
+            "name": "tiled_vae"
+          }
+        },
+        {
+          "label": "模式",
+          "name": "mode",
+          "shape": 7,
+          "type": "COMBO",
+          "widget": {
+            "name": "mode"
+          }
+        },
+        {
+          "label": "输出路径",
+          "name": "output_path",
+          "shape": 7,
+          "type": "STRING",
+          "widget": {
+            "name": "output_path"
+          }
+        }
+      ],
+      "outputs": [
+        {
+          "label": "图像嵌入",
+          "name": "image_embeds",
+          "type": "WANVIDIMAGE_EMBEDS",
+          "links": [
+            36
+          ]
+        },
+        {
+          "label": "输出路径",
+          "name": "output_path",
+          "type": "STRING"
+        }
+      ],
+      "properties": {
+        "cnr_id": "ComfyUI-WanVideoWrapper",
+        "ver": "49430f900bf812a1e281560bafafd04c43dfdf13",
+        "Node name for S&R": "WanVideoImageToVideoMultiTalk",
+        "ue_properties": {
+          "version": "7.5.2",
+          "widget_ue_connectable": {
+            "width": true,
+            "height": true
+          },
+          "input_ue_unconnectable": {}
+        }
+      },
+      "widgets_values": [
+        832,
+        480,
+        61,
+        16,
+        false,
+        "disabled",
+        false,
+        "infinitetalk",
+        ""
+      ],
+      "color": "#323",
+      "bgcolor": "#535"
+    },
+    {
+      "id": 2,
+      "type": "Audio Duration (mtb)",
+      "pos": [
+        1380,
+        2880
+      ],
+      "size": [
+        169.06503295898438,
+        26
+      ],
+      "flags": {},
+      "order": 33,
+      "mode": 0,
+      "inputs": [
+        {
+          "label": "audio",
+          "name": "audio",
+          "type": "AUDIO",
+          "link": 2
+        }
+      ],
+      "outputs": [
+        {
+          "label": "duration_ms",
+          "name": "duration_ms",
+          "type": "INT",
+          "links": [
+            55
+          ]
+        }
+      ],
+      "properties": {
+        "cnr_id": "comfy-mtb",
+        "ver": "0.5.4",
+        "Node name for S&R": "Audio Duration (mtb)",
+        "ue_properties": {
+          "version": "7.5.1",
+          "widget_ue_connectable": {},
+          "input_ue_unconnectable": {}
+        }
+      },
+      "widgets_values": []
+    },
+    {
+      "id": 36,
+      "type": "WanVideoSampler",
+      "pos": [
+        3050,
+        1650
+      ],
+      "size": [
+        267.80859375,
+        838.0732421875
+      ],
+      "flags": {},
+      "order": 55,
+      "mode": 0,
+      "inputs": [
+        {
+          "label": "模型",
+          "name": "model",
+          "type": "WANVIDEOMODEL",
+          "link": 35
+        },
+        {
+          "label": "图像嵌入",
+          "name": "image_embeds",
+          "type": "WANVIDIMAGE_EMBEDS",
+          "link": 36
+        },
+        {
+          "label": "文本嵌入",
+          "name": "text_embeds",
+          "shape": 7,
+          "type": "WANVIDEOTEXTEMBEDS",
+          "link": 37
+        },
+        {
+          "label": "样本",
+          "name": "samples",
+          "shape": 7,
+          "type": "LATENT",
+          "link": 38
+        },
+        {
+          "label": "feta参数",
+          "name": "feta_args",
+          "shape": 7,
+          "type": "FETAARGS"
+        },
+        {
+          "label": "上下文选项",
+          "name": "context_options",
+          "shape": 7,
+          "type": "WANVIDCONTEXT"
+        },
+        {
+          "label": "缓存参数",
+          "name": "cache_args",
+          "shape": 7,
+          "type": "CACHEARGS"
+        },
+        {
+          "label": "flowedit参数",
+          "name": "flowedit_args",
+          "shape": 7,
+          "type": "FLOWEDITARGS"
+        },
+        {
+          "label": "slg参数",
+          "name": "slg_args",
+          "shape": 7,
+          "type": "SLGARGS"
+        },
+        {
+          "label": "循环参数",
+          "name": "loop_args",
+          "shape": 7,
+          "type": "LOOPARGS"
+        },
+        {
+          "label": "实验参数",
+          "name": "experimental_args",
+          "shape": 7,
+          "type": "EXPERIMENTALARGS"
+        },
+        {
+          "label": "sigma值",
+          "name": "sigmas",
+          "shape": 7,
+          "type": "SIGMAS"
+        },
+        {
+          "label": "unianimate姿势",
+          "name": "unianimate_poses",
+          "shape": 7,
+          "type": "UNIANIMATE_POSE"
+        },
+        {
+          "label": "fantasytalking嵌入",
+          "name": "fantasytalking_embeds",
+          "shape": 7,
+          "type": "FANTASYTALKING_EMBEDS"
+        },
+        {
+          "label": "uni3c嵌入",
+          "name": "uni3c_embeds",
+          "shape": 7,
+          "type": "UNI3C_EMBEDS"
+        },
+        {
+          "label": "multitalk嵌入",
+          "name": "multitalk_embeds",
+          "shape": 7,
+          "type": "MULTITALK_EMBEDS",
+          "link": 39
+        },
+        {
+          "label": "freeinit参数",
+          "name": "freeinit_args",
+          "shape": 7,
+          "type": "FREEINITARGS"
+        },
+        {
+          "label": "步数",
+          "name": "steps",
+          "type": "INT",
+          "widget": {
+            "name": "steps"
+          }
+        },
+        {
+          "label": "引导系数",
+          "name": "cfg",
+          "type": "FLOAT",
+          "widget": {
+            "name": "cfg"
+          }
+        },
+        {
+          "label": "偏移",
+          "name": "shift",
+          "type": "FLOAT",
+          "widget": {
+            "name": "shift"
+          }
+        },
+        {
+          "label": "随机种子",
+          "name": "seed",
+          "type": "INT",
+          "widget": {
+            "name": "seed"
+          }
+        },
+        {
+          "label": "强制卸载",
+          "name": "force_offload",
+          "type": "BOOLEAN",
+          "widget": {
+            "name": "force_offload"
+          }
+        },
+        {
+          "label": "调度器",
+          "name": "scheduler",
+          "type": "COMBO",
+          "widget": {
+            "name": "scheduler"
+          }
+        },
+        {
+          "label": "riflex频率索引",
+          "name": "riflex_freq_index",
+          "type": "INT",
+          "widget": {
+            "name": "riflex_freq_index"
+          }
+        },
+        {
+          "label": "降噪强度",
+          "name": "denoise_strength",
+          "shape": 7,
+          "type": "FLOAT",
+          "widget": {
+            "name": "denoise_strength"
+          }
+        },
+        {
+          "label": "批次引导系数",
+          "name": "batched_cfg",
+          "shape": 7,
+          "type": "BOOLEAN",
+          "widget": {
+            "name": "batched_cfg"
+          }
+        },
+        {
+          "label": "rope函数",
+          "name": "rope_function",
+          "shape": 7,
+          "type": "COMBO",
+          "widget": {
+            "name": "rope_function"
+          }
+        },
+        {
+          "label": "开始步",
+          "name": "start_step",
+          "shape": 7,
+          "type": "INT",
+          "widget": {
+            "name": "start_step"
+          }
+        },
+        {
+          "label": "结束步",
+          "name": "end_step",
+          "shape": 7,
+          "type": "INT",
+          "widget": {
+            "name": "end_step"
+          }
+        },
+        {
+          "label": "为样本添加噪声",
+          "name": "add_noise_to_samples",
+          "shape": 7,
+          "type": "BOOLEAN",
+          "widget": {
+            "name": "add_noise_to_samples"
+          }
+        }
+      ],
+      "outputs": [
+        {
+          "label": "样本",
+          "name": "samples",
+          "type": "LATENT",
+          "slot_index": 0,
+          "links": [
+            15
+          ]
+        },
+        {
+          "label": "降噪样本",
+          "name": "denoised_samples",
+          "type": "LATENT"
+        }
+      ],
+      "properties": {
+        "cnr_id": "ComfyUI-WanVideoWrapper",
+        "ver": "c3ee35f3ece76e38099dc516182d69b406e16772",
+        "Node name for S&R": "WanVideoSampler",
+        "ue_properties": {
+          "version": "7.5.2",
+          "widget_ue_connectable": {},
+          "input_ue_unconnectable": {}
+        }
+      },
+      "widgets_values": [
+        4,
+        1.0000000000000002,
+        11.000000000000002,
+        9535,
+        "increment",
+        true,
+        "flowmatch_distill",
+        0,
+        1,
+        false,
+        "comfy",
+        0,
+        -1,
+        true
+      ],
+      "color": "#323",
+      "bgcolor": "#535"
+    },
+    {
+      "id": 30,
+      "type": "MultiTalkWav2VecEmbeds",
+      "pos": [
+        1804.049072265625,
+        2599.8427734375
+      ],
+      "size": [
+        278.8501892089844,
+        326
+      ],
+      "flags": {},
+      "order": 50,
+      "mode": 0,
+      "inputs": [
+        {
+          "label": "wav2vec模型",
+          "name": "wav2vec_model",
+          "type": "WAV2VECMODEL",
+          "link": 2891
+        },
+        {
+          "label": "音频_1",
+          "name": "audio_1",
+          "type": "AUDIO",
+          "link": 220
+        },
+        {
+          "label": "音频_2",
+          "name": "audio_2",
+          "shape": 7,
+          "type": "AUDIO",
+          "link": 257
+        },
+        {
+          "label": "音频_3",
+          "name": "audio_3",
+          "shape": 7,
+          "type": "AUDIO"
+        },
+        {
+          "label": "音频_4",
+          "name": "audio_4",
+          "shape": 7,
+          "type": "AUDIO"
+        },
+        {
+          "label": "参考目标遮罩",
+          "name": "ref_target_masks",
+          "shape": 7,
+          "type": "MASK"
+        },
+        {
+          "label": "归一化响度",
+          "name": "normalize_loudness",
+          "type": "BOOLEAN",
+          "widget": {
+            "name": "normalize_loudness"
+          }
+        },
+        {
+          "label": "总帧数",
+          "name": "num_frames",
+          "type": "INT",
+          "widget": {
+            "name": "num_frames"
+          },
+          "link": 365
+        },
+        {
+          "label": "帧率",
+          "name": "fps",
+          "type": "FLOAT",
+          "widget": {
+            "name": "fps"
+          }
+        },
+        {
+          "label": "音频条件强度",
+          "name": "audio_scale",
+          "type": "FLOAT",
+          "widget": {
+            "name": "audio_scale"
+          }
+        },
+        {
+          "label": "音频引导系数",
+          "name": "audio_cfg_scale",
+          "type": "FLOAT",
+          "widget": {
+            "name": "audio_cfg_scale"
+          }
+        },
+        {
+          "label": "多音频类型",
+          "name": "multi_audio_type",
+          "type": "COMBO",
+          "widget": {
+            "name": "multi_audio_type"
+          }
+        },
+        {
+          "label": "add_noise_floor",
+          "name": "add_noise_floor",
+          "shape": 7,
+          "type": "BOOLEAN",
+          "widget": {
+            "name": "add_noise_floor"
+          }
+        },
+        {
+          "label": "smooth_transients",
+          "name": "smooth_transients",
+          "shape": 7,
+          "type": "BOOLEAN",
+          "widget": {
+            "name": "smooth_transients"
+          }
+        }
+      ],
+      "outputs": [
+        {
+          "label": "多对话嵌入",
+          "name": "multitalk_embeds",
+          "type": "MULTITALK_EMBEDS",
+          "links": [
+            9
+          ]
+        },
+        {
+          "label": "音频",
+          "name": "audio",
+          "type": "AUDIO",
+          "links": [
+            22
+          ]
+        },
+        {
+          "label": "num_frames",
+          "name": "num_frames",
+          "type": "INT",
+          "links": [
+            23
+          ]
+        }
+      ],
+      "properties": {
+        "cnr_id": "ComfyUI-WanVideoWrapper",
+        "ver": "3d7801cee4c8e3106078dd9b9f146caee95069ba",
+        "Node name for S&R": "MultiTalkWav2VecEmbeds",
+        "ue_properties": {
+          "version": "7.5.2",
+          "widget_ue_connectable": {
+            "num_frames": true
+          },
+          "input_ue_unconnectable": {}
+        }
+      },
+      "widgets_values": [
+        false,
+        1,
+        24,
+        1.0000000000000002,
+        1.0000000000000002,
+        "para",
+        false,
+        false
+      ],
+      "color": "#323",
+      "bgcolor": "#535"
+    },
+    {
+      "id": 46,
+      "type": "LayerUtility: ImageScaleByAspectRatio V2",
+      "pos": [
+        1680.44482421875,
+        1581.9051513671875
+      ],
+      "size": [
+        303.6851501464844,
+        330
+      ],
+      "flags": {},
+      "order": 22,
+      "mode": 0,
+      "inputs": [
+        {
+          "label": "图像",
+          "name": "image",
+          "shape": 7,
+          "type": "IMAGE",
+          "link": 2937
+        },
+        {
+          "label": "遮罩",
+          "name": "mask",
+          "shape": 7,
+          "type": "MASK"
+        },
+        {
+          "name": "aspect_ratio",
+          "type": "COMBO",
+          "widget": {
+            "name": "aspect_ratio"
+          }
+        },
+        {
+          "name": "proportional_width",
+          "type": "INT",
+          "widget": {
+            "name": "proportional_width"
+          }
+        },
+        {
+          "name": "proportional_height",
+          "type": "INT",
+          "widget": {
+            "name": "proportional_height"
+          }
+        },
+        {
+          "name": "fit",
+          "type": "COMBO",
+          "widget": {
+            "name": "fit"
+          }
+        },
+        {
+          "name": "method",
+          "type": "COMBO",
+          "widget": {
+            "name": "method"
+          }
+        },
+        {
+          "name": "round_to_multiple",
+          "type": "COMBO",
+          "widget": {
+            "name": "round_to_multiple"
+          }
+        },
+        {
+          "name": "scale_to_side",
+          "type": "COMBO",
+          "widget": {
+            "name": "scale_to_side"
+          }
+        },
+        {
+          "name": "scale_to_length",
+          "type": "INT",
+          "widget": {
+            "name": "scale_to_length"
+          },
+          "link": 49
+        },
+        {
+          "name": "background_color",
+          "type": "STRING",
+          "widget": {
+            "name": "background_color"
+          }
+        }
+      ],
+      "outputs": [
+        {
+          "label": "图像",
+          "name": "image",
+          "type": "IMAGE",
+          "links": [
+            28
+          ]
+        },
+        {
+          "label": "遮罩",
+          "name": "mask",
+          "type": "MASK"
+        },
+        {
+          "label": "原始大小",
+          "name": "original_size",
+          "type": "BOX"
+        },
+        {
+          "name": "width",
+          "type": "INT",
+          "links": [
+            3
+          ]
+        },
+        {
+          "name": "height",
+          "type": "INT",
+          "links": [
+            11
+          ]
+        }
+      ],
+      "properties": {
+        "cnr_id": "comfyui_layerstyle",
+        "ver": "5840264d0d7cb47185acfed28c02848e94c6a894",
+        "Node name for S&R": "LayerUtility: ImageScaleByAspectRatio V2",
+        "ue_properties": {
+          "version": "7.5.2",
+          "widget_ue_connectable": {},
+          "input_ue_unconnectable": {}
+        }
+      },
+      "widgets_values": [
+        "original",
+        1,
+        1,
+        "crop",
+        "lanczos",
+        "16",
+        "longest",
+        1024,
+        "#000000"
+      ],
+      "color": "rgba(38, 73, 116, 0.7)"
+    },
+    {
+      "id": 53,
+      "type": "MathExpression|pysssss",
+      "pos": [
+        1574.2294921875,
+        2858.306640625
+      ],
+      "size": [
+        210,
+        128
+      ],
+      "flags": {},
+      "order": 45,
+      "mode": 0,
+      "inputs": [
+        {
+          "label": "a",
+          "name": "a",
+          "shape": 7,
+          "type": "INT,FLOAT,IMAGE,LATENT",
+          "link": 55
+        },
+        {
+          "label": "b",
+          "name": "b",
+          "shape": 7,
+          "type": "INT,FLOAT,IMAGE,LATENT"
+        },
+        {
+          "label": "c",
+          "name": "c",
+          "shape": 7,
+          "type": "INT,FLOAT,IMAGE,LATENT"
+        },
+        {
+          "label": "表达式",
+          "name": "expression",
+          "type": "INT,FLOAT,IMAGE,LATENT",
+          "widget": {
+            "name": "expression"
+          }
+        }
+      ],
+      "outputs": [
+        {
+          "label": "整数",
+          "name": "INT",
+          "type": "INT"
+        },
+        {
+          "label": "浮点",
+          "name": "FLOAT",
+          "type": "FLOAT",
+          "links": [
+            20
+          ]
+        }
+      ],
+      "properties": {
+        "cnr_id": "comfyui-custom-scripts",
+        "ver": "f2838ed5e59de4d73cde5c98354b87a8d3200190",
+        "Node name for S&R": "MathExpression|pysssss",
+        "ue_properties": {
+          "version": "7.5.2",
+          "widget_ue_connectable": {},
+          "input_ue_unconnectable": {}
+        }
+      },
+      "widgets_values": [
+        "a/1000"
+      ]
+    },
+    {
+      "id": 75,
+      "type": "Wav2VecModelLoader",
+      "pos": [
+        1697.960205078125,
+        2404.6123046875
+      ],
+      "size": [
+        270,
+        106
+      ],
+      "flags": {},
+      "order": 2,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "wav2vec_model",
+          "type": "WAV2VECMODEL",
+          "links": [
+            2891
+          ]
+        }
+      ],
+      "properties": {
+        "cnr_id": "ComfyUI-WanVideoWrapper",
+        "ver": "95255c7ffa29d90af6b0597b10d59a7946618b61",
+        "Node name for S&R": "Wav2VecModelLoader",
+        "ue_properties": {
+          "widget_ue_connectable": {},
+          "input_ue_unconnectable": {},
+          "version": "7.5.1"
+        }
+      },
+      "widgets_values": [
+        "wav2vec2-chinese-base_fp16.safetensors",
+        "fp16",
+        "main_device"
+      ]
+    },
+    {
+      "id": 29,
+      "type": "LoadWanVideoT5TextEncoder",
+      "pos": [
+        2184.0927734375,
+        2026.7435302734375
+      ],
+      "size": [
+        431.6380920410156,
+        130
+      ],
+      "flags": {},
+      "order": 3,
+      "mode": 0,
+      "inputs": [
+        {
+          "label": "模型名称",
+          "name": "model_name",
+          "type": "COMBO",
+          "widget": {
+            "name": "model_name"
+          }
+        },
+        {
+          "label": "精度",
+          "name": "precision",
+          "type": "COMBO",
+          "widget": {
+            "name": "precision"
+          }
+        },
+        {
+          "label": "加载设备",
+          "name": "load_device",
+          "shape": 7,
+          "type": "COMBO",
+          "widget": {
+            "name": "load_device"
+          }
+        },
+        {
+          "label": "量化",
+          "name": "quantization",
+          "shape": 7,
+          "type": "COMBO",
+          "widget": {
+            "name": "quantization"
+          }
+        }
+      ],
+      "outputs": [
+        {
+          "label": "wan_t5模型",
+          "name": "wan_t5_model",
+          "type": "WANTEXTENCODER",
+          "links": [
+            30
+          ]
+        }
+      ],
+      "properties": {
+        "cnr_id": "ComfyUI-WanVideoWrapper",
+        "ver": "b982b4ef0c41cb1c83ae53980860c3598a53814e",
+        "Node name for S&R": "LoadWanVideoT5TextEncoder",
+        "ue_properties": {
+          "version": "7.5.2",
+          "widget_ue_connectable": {},
+          "input_ue_unconnectable": {}
+        }
+      },
+      "widgets_values": [
+        "umt5-xxl-enc-bf16.safetensors",
+        "bf16",
+        "offload_device",
+        "disabled"
+      ]
+    },
+    {
+      "id": 9,
+      "type": "AudioSeparation",
+      "pos": [
+        1347.829833984375,
+        2997.449951171875
+      ],
+      "size": [
+        218.6367950439453,
+        166
+      ],
+      "flags": {},
+      "order": 34,
+      "mode": 0,
+      "inputs": [
+        {
+          "label": "音频",
+          "name": "audio",
+          "type": "AUDIO",
+          "link": 7
+        },
+        {
+          "label": "分段淡入淡出形状",
+          "name": "chunk_fade_shape",
+          "shape": 7,
+          "type": "COMBO",
+          "widget": {
+            "name": "chunk_fade_shape"
+          }
+        },
+        {
+          "label": "分段长度（秒）",
+          "name": "chunk_length",
+          "shape": 7,
+          "type": "FLOAT",
+          "widget": {
+            "name": "chunk_length"
+          }
+        },
+        {
+          "label": "分段重叠（秒）",
+          "name": "chunk_overlap",
+          "shape": 7,
+          "type": "FLOAT",
+          "widget": {
+            "name": "chunk_overlap"
+          }
+        }
+      ],
+      "outputs": [
+        {
+          "label": "低音",
+          "name": "Bass",
+          "type": "AUDIO",
+          "links": []
+        },
+        {
+          "label": "鼓",
+          "name": "Drums",
+          "type": "AUDIO",
+          "links": []
+        },
+        {
+          "label": "其他",
+          "name": "Other",
+          "type": "AUDIO",
+          "links": []
+        },
+        {
+          "label": "人声",
+          "name": "Vocals",
+          "type": "AUDIO",
+          "links": [
+            56
+          ]
+        }
+      ],
+      "properties": {
+        "cnr_id": "audio-separation-nodes-comfyui",
+        "ver": "31a4567726e035097cc2d1f767767908a6fda2ea",
+        "Node name for S&R": "AudioSeparation",
+        "ue_properties": {
+          "version": "7.5.2",
+          "widget_ue_connectable": {},
+          "input_ue_unconnectable": {}
+        }
+      },
+      "widgets_values": [
+        "linear",
+        10,
+        0.1
+      ]
+    },
+    {
+      "id": 54,
+      "type": "PreviewAudio",
+      "pos": [
+        1590.6329345703125,
+        3224.16845703125
+      ],
+      "size": [
+        375.1293029785156,
+        88
+      ],
+      "flags": {},
+      "order": 46,
+      "mode": 0,
+      "inputs": [
+        {
+          "label": "音频",
+          "name": "audio",
+          "type": "AUDIO",
+          "link": 56
+        },
+        {
+          "name": "audioUI",
+          "type": "AUDIO_UI",
+          "widget": {
+            "name": "audioUI"
+          }
+        }
+      ],
+      "outputs": [],
+      "properties": {
+        "cnr_id": "comfy-core",
+        "ver": "0.6.0",
+        "Node name for S&R": "PreviewAudio",
+        "ue_properties": {
+          "version": "7.5.2",
+          "widget_ue_connectable": {},
+          "input_ue_unconnectable": {}
+        }
+      },
+      "widgets_values": []
+    },
+    {
+      "id": 61,
+      "type": "AudioSeparation",
+      "pos": [
+        1348.343017578125,
+        2439.49951171875
+      ],
+      "size": [
+        218.6367950439453,
+        166
+      ],
+      "flags": {},
+      "order": 30,
+      "mode": 0,
+      "inputs": [
+        {
+          "label": "音频",
+          "name": "audio",
+          "type": "AUDIO",
+          "link": 166
+        },
+        {
+          "label": "分段淡入淡出形状",
+          "name": "chunk_fade_shape",
+          "shape": 7,
+          "type": "COMBO",
+          "widget": {
+            "name": "chunk_fade_shape"
+          }
+        },
+        {
+          "label": "分段长度（秒）",
+          "name": "chunk_length",
+          "shape": 7,
+          "type": "FLOAT",
+          "widget": {
+            "name": "chunk_length"
+          }
+        },
+        {
+          "label": "分段重叠（秒）",
+          "name": "chunk_overlap",
+          "shape": 7,
+          "type": "FLOAT",
+          "widget": {
+            "name": "chunk_overlap"
+          }
+        }
+      ],
+      "outputs": [
+        {
+          "label": "低音",
+          "name": "Bass",
+          "type": "AUDIO",
+          "links": []
+        },
+        {
+          "label": "鼓",
+          "name": "Drums",
+          "type": "AUDIO",
+          "links": []
+        },
+        {
+          "label": "其他",
+          "name": "Other",
+          "type": "AUDIO",
+          "links": []
+        },
+        {
+          "label": "人声",
+          "name": "Vocals",
+          "type": "AUDIO",
+          "links": [
+            193,
+            215
+          ]
+        }
+      ],
+      "properties": {
+        "cnr_id": "audio-separation-nodes-comfyui",
+        "ver": "31a4567726e035097cc2d1f767767908a6fda2ea",
+        "Node name for S&R": "AudioSeparation",
+        "ue_properties": {
+          "version": "7.5.2",
+          "widget_ue_connectable": {},
+          "input_ue_unconnectable": {}
+        }
+      },
+      "widgets_values": [
+        "linear",
+        10,
+        0.1
+      ]
+    },
+    {
+      "id": 62,
+      "type": "SetNode",
+      "pos": [
+        1649.12744140625,
+        2280.087646484375
+      ],
+      "size": [
+        210,
+        60
+      ],
+      "flags": {
+        "collapsed": true
+      },
+      "order": 41,
+      "mode": 0,
+      "inputs": [
+        {
+          "label": "输入",
+          "name": "AUDIO",
+          "type": "AUDIO",
+          "link": 193
+        }
+      ],
+      "outputs": [
+        {
+          "label": "输出",
+          "name": "*",
+          "type": "*"
+        }
+      ],
+      "title": "Set_AUDIO",
+      "properties": {
+        "previousName": "左边人物音频",
+        "ue_properties": {
+          "version": "7.5.2",
+          "widget_ue_connectable": {},
+          "input_ue_unconnectable": {}
+        }
+      },
+      "widgets_values": [
+        "左边人物音频"
+      ]
+    },
+    {
+      "id": 57,
+      "type": "LoadImage",
+      "pos": [
+        812.8348999023438,
+        1536.065673828125
+      ],
+      "size": [
+        627.6912841796875,
+        760.6198120117188
+      ],
+      "flags": {},
+      "order": 4,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "image",
+          "type": "COMBO",
+          "widget": {
+            "name": "image"
+          }
+        },
+        {
+          "name": "upload",
+          "type": "IMAGEUPLOAD",
+          "widget": {
+            "name": "upload"
+          }
+        }
+      ],
+      "outputs": [
+        {
+          "label": "图像",
+          "name": "IMAGE",
+          "type": "IMAGE",
+          "links": [
+            2937
+          ]
+        },
+        {
+          "label": "遮罩",
+          "name": "MASK",
+          "type": "MASK"
+        }
+      ],
+      "properties": {
+        "cnr_id": "comfy-core",
+        "ver": "0.6.0",
+        "Node name for S&R": "LoadImage",
+        "ue_properties": {
+          "version": "7.5.2",
+          "widget_ue_connectable": {},
+          "input_ue_unconnectable": {}
+        }
+      },
+      "widgets_values": [
+        "ComfyUI_temp_nomil_00001_.png",
+        "image"
+      ]
+    },
+    {
+      "id": 16,
+      "type": "WanVideoClipVisionEncode",
+      "pos": [
+        2405.232177734375,
+        1537.029052734375
+      ],
+      "size": [
+        311.17578125,
+        262
+      ],
+      "flags": {},
+      "order": 37,
+      "mode": 0,
+      "inputs": [
+        {
+          "label": "CLIP视觉",
+          "name": "clip_vision",
+          "type": "CLIP_VISION",
+          "link": 13
+        },
+        {
+          "label": "图像_1",
+          "name": "image_1",
+          "type": "IMAGE",
+          "link": 14
+        },
+        {
+          "label": "图像_2",
+          "name": "image_2",
+          "shape": 7,
+          "type": "IMAGE"
+        },
+        {
+          "label": "负面图像",
+          "name": "negative_image",
+          "shape": 7,
+          "type": "IMAGE"
+        },
+        {
+          "label": "额外CLIP嵌入乘数",
+          "name": "strength_1",
+          "type": "FLOAT",
+          "widget": {
+            "name": "strength_1"
+          }
+        },
+        {
+          "label": "额外CLIP嵌入乘数",
+          "name": "strength_2",
+          "type": "FLOAT",
+          "widget": {
+            "name": "strength_2"
+          }
+        },
+        {
+          "label": "裁剪",
+          "name": "crop",
+          "type": "COMBO",
+          "widget": {
+            "name": "crop"
+          }
+        },
+        {
+          "label": "合并嵌入",
+          "name": "combine_embeds",
+          "type": "COMBO",
+          "widget": {
+            "name": "combine_embeds"
+          }
+        },
+        {
+          "label": "强制离线",
+          "name": "force_offload",
+          "type": "BOOLEAN",
+          "widget": {
+            "name": "force_offload"
+          }
+        },
+        {
+          "label": "使用matteo的瓦片图像编码以提升精度",
+          "name": "tiles",
+          "shape": 7,
+          "type": "INT",
+          "widget": {
+            "name": "tiles"
+          }
+        },
+        {
+          "label": "瓦片平均比例",
+          "name": "ratio",
+          "shape": 7,
+          "type": "FLOAT",
+          "widget": {
+            "name": "ratio"
+          }
+        }
+      ],
+      "outputs": [
+        {
+          "label": "图像嵌入",
+          "name": "image_embeds",
+          "type": "WANVIDIMAGE_CLIPEMBEDS",
+          "links": [
+            45
+          ]
+        }
+      ],
+      "properties": {
+        "cnr_id": "ComfyUI-WanVideoWrapper",
+        "ver": "58104b620f6b52de2fc516ade9f31383b0e7eca9",
+        "Node name for S&R": "WanVideoClipVisionEncode",
+        "ue_properties": {
+          "version": "7.5.2",
+          "widget_ue_connectable": {},
+          "input_ue_unconnectable": {}
+        }
+      },
+      "widgets_values": [
+        1,
+        1,
+        "center",
+        "average",
+        true,
+        0,
+        0.5
+      ]
+    },
+    {
+      "id": 34,
+      "type": "WanVideoTextEncode",
+      "pos": [
+        2633.95751953125,
+        2024.0908203125
+      ],
+      "size": [
+        358.9390869140625,
+        429.31658935546875
+      ],
+      "flags": {},
+      "order": 19,
+      "mode": 0,
+      "inputs": [
+        {
+          "label": "t5",
+          "name": "t5",
+          "shape": 7,
+          "type": "WANTEXTENCODER",
+          "link": 30
+        },
+        {
+          "label": "模型卸载",
+          "name": "model_to_offload",
+          "shape": 7,
+          "type": "WANVIDEOMODEL"
+        },
+        {
+          "label": "正面提示",
+          "name": "positive_prompt",
+          "type": "STRING",
+          "widget": {
+            "name": "positive_prompt"
+          }
+        },
+        {
+          "label": "负面提示",
+          "name": "negative_prompt",
+          "type": "STRING",
+          "widget": {
+            "name": "negative_prompt"
+          }
+        },
+        {
+          "label": "强制卸载",
+          "name": "force_offload",
+          "shape": 7,
+          "type": "BOOLEAN",
+          "widget": {
+            "name": "force_offload"
+          }
+        },
+        {
+          "label": "使用磁盘缓存",
+          "name": "use_disk_cache",
+          "shape": 7,
+          "type": "BOOLEAN",
+          "widget": {
+            "name": "use_disk_cache"
+          }
+        },
+        {
+          "label": "设备",
+          "name": "device",
+          "shape": 7,
+          "type": "COMBO",
+          "widget": {
+            "name": "device"
+          }
+        }
+      ],
+      "outputs": [
+        {
+          "label": "文本嵌入",
+          "name": "text_embeds",
+          "type": "WANVIDEOTEXTEMBEDS",
+          "links": [
+            37
+          ]
+        }
+      ],
+      "properties": {
+        "cnr_id": "ComfyUI-WanVideoWrapper",
+        "ver": "058286fc0f3b0651a2f6b68309df3f06e8332cc0",
+        "Node name for S&R": "WanVideoTextEncode",
+        "ue_properties": {
+          "version": "7.5.2",
+          "widget_ue_connectable": {},
+          "input_ue_unconnectable": {}
+        }
+      },
+      "widgets_values": [
+        "两个人在聊天",
+        "色调艳丽，过曝，静态，细节模糊不清，字幕，风格，作品，画作，画面，静止，整体发灰，最差质量，低质量，JPEG压缩残留，丑陋的，残缺的，多余的手指，画得不好的手部，画得不好的脸部，畸形的，毁容的，形态畸形的肢体，手指融合，静止不动的画面，杂乱的背景，三条腿，背景人很多，倒着走",
+        true,
+        false,
+        "gpu"
+      ],
+      "color": "#232",
+      "bgcolor": "#353"
+    },
+    {
+      "id": 50,
+      "type": "VHS_VideoCombine",
+      "pos": [
+        3846.2109375,
+        1601.6754150390625
+      ],
+      "size": [
+        1741.310791015625,
+        1341.06396484375
+      ],
+      "flags": {},
+      "order": 59,
+      "mode": 0,
+      "inputs": [
+        {
+          "label": "图像",
+          "name": "images",
+          "type": "IMAGE",
+          "link": 2889
+        },
+        {
+          "label": "音频",
+          "name": "audio",
+          "shape": 7,
+          "type": "AUDIO",
+          "link": 53
+        },
+        {
+          "label": "批次管理",
+          "name": "meta_batch",
+          "shape": 7,
+          "type": "VHS_BatchManager"
+        },
+        {
+          "name": "vae",
+          "shape": 7,
+          "type": "VAE"
+        },
+        {
+          "label": "帧率",
+          "name": "frame_rate",
+          "type": "FLOAT",
+          "widget": {
+            "name": "frame_rate"
+          }
+        },
+        {
+          "label": "循环次数",
+          "name": "loop_count",
+          "type": "INT",
+          "widget": {
+            "name": "loop_count"
+          }
+        },
+        {
+          "label": "文件名前缀",
+          "name": "filename_prefix",
+          "type": "STRING",
+          "widget": {
+            "name": "filename_prefix"
+          }
+        },
+        {
+          "label": "格式",
+          "name": "format",
+          "type": "COMBO",
+          "widget": {
+            "name": "format"
+          }
+        },
+        {
+          "label": "Ping-Pong",
+          "name": "pingpong",
+          "type": "BOOLEAN",
+          "widget": {
+            "name": "pingpong"
+          }
+        },
+        {
+          "label": "保存到输出文件夹",
+          "name": "save_output",
+          "type": "BOOLEAN",
+          "widget": {
+            "name": "save_output"
+          }
+        }
+      ],
+      "outputs": [
+        {
+          "label": "文件名",
+          "name": "Filenames",
+          "type": "VHS_FILENAMES"
+        }
+      ],
+      "properties": {
+        "cnr_id": "comfyui-videohelpersuite",
+        "ver": "0a75c7958fe320efcb052f1d9f8451fd20c730a8",
+        "Node name for S&R": "VHS_VideoCombine",
+        "ue_properties": {
+          "version": "7.5.2",
+          "widget_ue_connectable": {},
+          "input_ue_unconnectable": {}
+        }
+      },
+      "widgets_values": {
+        "frame_rate": 24,
+        "loop_count": 0,
+        "filename_prefix": "pl-WanVideo2_1_multitalk",
+        "format": "video/h264-mp4",
+        "pix_fmt": "yuv420p",
+        "crf": 19,
+        "save_metadata": false,
+        "trim_to_audio": false,
+        "pingpong": false,
+        "save_output": true,
+        "videopreview": {
+          "paused": false,
+          "hidden": false,
+          "params": {
+            "score": "0",
+            "filename": "pl-WanVideo2_1_multitalk_00006-audio.mp4",
+            "workflow": "pl-WanVideo2_1_multitalk_00006.png",
+            "fullpath": "/home/aihoh0001/ComfyUI/output/pl-WanVideo2_1_multitalk_00006-audio.mp4",
+            "format": "video/h264-mp4",
+            "subfolder": "",
+            "label": "Normal",
+            "type": "output",
+            "frame_rate": 24
+          },
+          "muted": false
+        }
+      }
+    },
+    {
+      "id": 59,
+      "type": "LoadAudio",
+      "pos": [
+        807.3353881835938,
+        2472.239990234375
+      ],
+      "size": [
+        300.7216796875,
+        136
+      ],
+      "flags": {},
+      "order": 5,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "audio",
+          "type": "COMBO",
+          "widget": {
+            "name": "audio"
+          }
+        },
+        {
+          "name": "audioUI",
+          "type": "AUDIO_UI",
+          "widget": {
+            "name": "audioUI"
+          }
+        },
+        {
+          "name": "upload",
+          "type": "AUDIOUPLOAD",
+          "widget": {
+            "name": "upload"
+          }
+        }
+      ],
+      "outputs": [
+        {
+          "label": "音频",
+          "name": "AUDIO",
+          "type": "AUDIO",
+          "links": [
+            2905
+          ]
+        }
+      ],
+      "properties": {
+        "cnr_id": "comfy-core",
+        "ver": "0.6.0",
+        "Node name for S&R": "LoadAudio",
+        "ue_properties": {
+          "version": "7.5.2",
+          "widget_ue_connectable": {},
+          "input_ue_unconnectable": {}
+        }
+      },
+      "widgets_values": [
+        "Female-1_SeriouslygigglesThatsthecutestt.wav",
+        null,
+        null
+      ],
+      "color": "#232",
+      "bgcolor": "#353"
+    },
+    {
+      "id": 19,
+      "type": "ImageCASharpening+",
+      "pos": [
+        3403.602294921875,
+        1849.45751953125
+      ],
+      "size": [
+        306.3374938964844,
+        58
+      ],
+      "flags": {},
+      "order": 57,
+      "mode": 0,
+      "inputs": [
+        {
+          "label": "图像",
+          "name": "image",
+          "type": "IMAGE",
+          "link": 17
+        },
+        {
+          "label": "数量",
+          "name": "amount",
+          "type": "FLOAT",
+          "widget": {
+            "name": "amount"
+          }
+        }
+      ],
+      "outputs": [
+        {
+          "label": "图像",
+          "name": "IMAGE",
+          "type": "IMAGE",
+          "links": [
+            2888,
+            2889
+          ]
+        }
+      ],
+      "properties": {
+        "cnr_id": "comfyui_essentials",
+        "ver": "9d9f4bedfc9f0321c19faf71855e228c93bd0dc9",
+        "Node name for S&R": "ImageCASharpening+",
+        "ue_properties": {
+          "version": "7.5.2",
+          "widget_ue_connectable": {},
+          "input_ue_unconnectable": {}
+        }
+      },
+      "widgets_values": [
+        0.32000000000000006
+      ]
+    },
+    {
+      "id": 52,
+      "type": "PreviewAudio",
+      "pos": [
+        814.8511962890625,
+        3073.892822265625
+      ],
+      "size": [
+        294.54766845703125,
+        88
+      ],
+      "flags": {},
+      "order": 35,
+      "mode": 0,
+      "inputs": [
+        {
+          "label": "音频",
+          "name": "audio",
+          "type": "AUDIO",
+          "link": 54
+        },
+        {
+          "name": "audioUI",
+          "type": "AUDIO_UI",
+          "widget": {
+            "name": "audioUI"
+          }
+        }
+      ],
+      "outputs": [],
+      "properties": {
+        "cnr_id": "comfy-core",
+        "ver": "0.6.0",
+        "Node name for S&R": "PreviewAudio",
+        "ue_properties": {
+          "version": "7.5.2",
+          "widget_ue_connectable": {},
+          "input_ue_unconnectable": {}
+        }
+      },
+      "widgets_values": [],
+      "color": "#432",
+      "bgcolor": "#653"
+    },
+    {
+      "id": 76,
+      "type": "DualAudioProcessor",
+      "pos": [
+        813.339111328125,
+        2891.349853515625
+      ],
+      "size": [
+        285.1923522949219,
+        76.4416275024414
+      ],
+      "flags": {
+        "collapsed": false
+      },
+      "order": 20,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "audio_left",
+          "type": "AUDIO",
+          "link": 2905
+        },
+        {
+          "name": "audio_right",
+          "type": "AUDIO",
+          "link": 2906
+        }
+      ],
+      "outputs": [
+        {
+          "name": "left_padded",
+          "type": "AUDIO",
+          "links": [
+            2907
+          ]
+        },
+        {
+          "name": "right_padded",
+          "type": "AUDIO",
+          "links": [
+            2908
+          ]
+        },
+        {
+          "name": "merged",
+          "type": "AUDIO",
+          "links": [
+            2904
+          ]
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "DualAudioProcessor",
+        "ue_properties": {
+          "widget_ue_connectable": {},
+          "input_ue_unconnectable": {},
+          "version": "7.5.1"
+        }
+      },
+      "widgets_values": []
+    },
+    {
+      "id": 8,
+      "type": "GetNode",
+      "pos": [
+        3438.130126953125,
+        1977.2178955078125
+      ],
+      "size": [
+        210,
+        58
+      ],
+      "flags": {
+        "collapsed": false
+      },
+      "order": 6,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [
+        {
+          "label": "输出",
+          "name": "AUDIO",
+          "type": "AUDIO",
+          "links": [
+            53
+          ]
+        }
+      ],
+      "properties": {
+        "ue_properties": {
+          "version": "7.5.2",
+          "widget_ue_connectable": {},
+          "input_ue_unconnectable": {}
+        }
+      },
+      "widgets_values": [
+        "原声裁剪"
+      ]
+    },
+    {
+      "id": 17,
+      "type": "WanVideoDecode",
+      "pos": [
+        3414.617431640625,
+        1560.8004150390625
+      ],
+      "size": [
+        210,
+        198
+      ],
+      "flags": {},
+      "order": 56,
+      "mode": 0,
+      "inputs": [
+        {
+          "label": "vae",
+          "name": "vae",
+          "type": "WANVAE",
+          "link": 2935
+        },
+        {
+          "label": "样本",
+          "name": "samples",
+          "type": "LATENT",
+          "link": 15
+        },
+        {
+          "label": "启用VAE分块",
+          "name": "enable_vae_tiling",
+          "type": "BOOLEAN",
+          "widget": {
+            "name": "enable_vae_tiling"
+          }
+        },
+        {
+          "label": "分块宽度",
+          "name": "tile_x",
+          "type": "INT",
+          "widget": {
+            "name": "tile_x"
+          }
+        },
+        {
+          "label": "分块高度",
+          "name": "tile_y",
+          "type": "INT",
+          "widget": {
+            "name": "tile_y"
+          }
+        },
+        {
+          "label": "分块步进X",
+          "name": "tile_stride_x",
+          "type": "INT",
+          "widget": {
+            "name": "tile_stride_x"
+          }
+        },
+        {
+          "label": "分块步进Y",
+          "name": "tile_stride_y",
+          "type": "INT",
+          "widget": {
+            "name": "tile_stride_y"
+          }
+        },
+        {
+          "label": "归一化",
+          "name": "normalization",
+          "shape": 7,
+          "type": "COMBO",
+          "widget": {
+            "name": "normalization"
+          }
+        }
+      ],
+      "outputs": [
+        {
+          "label": "图像",
+          "name": "images",
+          "type": "IMAGE",
+          "slot_index": 0,
+          "links": [
+            17
+          ]
+        }
+      ],
+      "properties": {
+        "cnr_id": "ComfyUI-WanVideoWrapper",
+        "ver": "b982b4ef0c41cb1c83ae53980860c3598a53814e",
+        "Node name for S&R": "WanVideoDecode",
+        "ttNbgOverride": {
+          "bgcolor": "#335",
+          "groupcolor": "#88A",
+          "color": "#223"
+        },
+        "ue_properties": {
+          "version": "7.5.2",
+          "widget_ue_connectable": {},
+          "input_ue_unconnectable": {}
+        }
+      },
+      "widgets_values": [
+        false,
+        272,
+        272,
+        144,
+        128,
+        "default"
+      ]
+    },
+    {
+      "id": 64,
+      "type": "LoadAudio",
+      "pos": [
+        809.41943359375,
+        2683.44482421875
+      ],
+      "size": [
+        300.7216796875,
+        136
+      ],
+      "flags": {},
+      "order": 7,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "audio",
+          "type": "COMBO",
+          "widget": {
+            "name": "audio"
+          }
+        },
+        {
+          "name": "audioUI",
+          "type": "AUDIO_UI",
+          "widget": {
+            "name": "audioUI"
+          }
+        },
+        {
+          "name": "upload",
+          "type": "AUDIOUPLOAD",
+          "widget": {
+            "name": "upload"
+          }
+        }
+      ],
+      "outputs": [
+        {
+          "label": "音频",
+          "name": "AUDIO",
+          "type": "AUDIO",
+          "links": [
+            2906
+          ]
+        }
+      ],
+      "properties": {
+        "cnr_id": "comfy-core",
+        "ver": "0.6.0",
+        "Node name for S&R": "LoadAudio",
+        "ue_properties": {
+          "version": "7.5.2",
+          "widget_ue_connectable": {},
+          "input_ue_unconnectable": {}
+        }
+      },
+      "widgets_values": [
+        "Male-1_Wha—CutegigglesYouthinkImcute.wav",
+        null,
+        null
+      ],
+      "color": "#323",
+      "bgcolor": "#535"
+    },
+    {
+      "id": 51,
+      "type": "Note",
+      "pos": [
+        525.4354858398438,
+        2861.7255859375
+      ],
+      "size": [
+        268.6583251953125,
+        88
+      ],
+      "flags": {},
+      "order": 8,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [],
+      "properties": {
+        "ue_properties": {
+          "version": "7.5.2",
+          "widget_ue_connectable": {},
+          "input_ue_unconnectable": {}
+        }
+      },
+      "widgets_values": [
+        "这里上传双人对话的完整音频"
+      ],
+      "color": "#432",
+      "bgcolor": "#653"
+    },
+    {
+      "id": 70,
+      "type": "Note",
+      "pos": [
+        520.267822265625,
+        2679.229736328125
+      ],
+      "size": [
+        268.6583251953125,
+        88
+      ],
+      "flags": {},
+      "order": 9,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [],
+      "properties": {
+        "ue_properties": {
+          "version": "7.5.2",
+          "widget_ue_connectable": {},
+          "input_ue_unconnectable": {}
+        }
+      },
+      "widgets_values": [
+        "这里上传只有右边人物的音频"
+      ],
+      "color": "#432",
+      "bgcolor": "#653"
+    },
+    {
+      "id": 37,
+      "type": "WanVideoLoraSelect",
+      "pos": [
+        834.8526611328125,
+        905.51318359375
+      ],
+      "size": [
+        485.96087646484375,
+        150
+      ],
+      "flags": {},
+      "order": 10,
+      "mode": 0,
+      "inputs": [
+        {
+          "label": "先前LoRA",
+          "name": "prev_lora",
+          "shape": 7,
+          "type": "WANVIDLORA",
+          "link": null
+        },
+        {
+          "label": "块",
+          "name": "blocks",
+          "shape": 7,
+          "type": "SELECTEDBLOCKS"
+        },
+        {
+          "label": "lora",
+          "name": "lora",
+          "type": "COMBO",
+          "widget": {
+            "name": "lora"
+          }
+        },
+        {
+          "label": "强度",
+          "name": "strength",
+          "type": "FLOAT",
+          "widget": {
+            "name": "strength"
+          }
+        },
+        {
+          "label": "低内存加载",
+          "name": "low_mem_load",
+          "shape": 7,
+          "type": "BOOLEAN",
+          "widget": {
+            "name": "low_mem_load"
+          }
+        },
+        {
+          "label": "合并LoRAs",
+          "name": "merge_loras",
+          "shape": 7,
+          "type": "BOOLEAN",
+          "widget": {
+            "name": "merge_loras"
+          }
+        }
+      ],
+      "outputs": [
+        {
+          "label": "lora",
+          "name": "lora",
+          "type": "WANVIDLORA",
+          "links": [
+            1713
+          ]
+        }
+      ],
+      "properties": {
+        "cnr_id": "ComfyUI-WanVideoWrapper",
+        "ver": "b982b4ef0c41cb1c83ae53980860c3598a53814e",
+        "Node name for S&R": "WanVideoLoraSelect",
+        "ue_properties": {
+          "version": "7.5.2",
+          "widget_ue_connectable": {},
+          "input_ue_unconnectable": {}
+        }
+      },
+      "widgets_values": [
+        "infinitetalk/lightx2v_T2V_14B_cfg_step_distill_v2_lora_rank64_bf16.safetensors",
+        1.0000000000000002,
+        false,
+        false
+      ]
+    },
+    {
+      "id": 40,
+      "type": "WanVideoLoraSelect",
+      "pos": [
+        849.0677490234375,
+        1116.3619384765625
+      ],
+      "size": [
+        485.96087646484375,
+        150
+      ],
+      "flags": {},
+      "order": 21,
+      "mode": 0,
+      "inputs": [
+        {
+          "label": "先前LoRA",
+          "name": "prev_lora",
+          "shape": 7,
+          "type": "WANVIDLORA",
+          "link": 1713
+        },
+        {
+          "label": "块",
+          "name": "blocks",
+          "shape": 7,
+          "type": "SELECTEDBLOCKS"
+        },
+        {
+          "label": "lora",
+          "name": "lora",
+          "type": "COMBO",
+          "widget": {
+            "name": "lora"
+          }
+        },
+        {
+          "label": "强度",
+          "name": "strength",
+          "type": "FLOAT",
+          "widget": {
+            "name": "strength"
+          }
+        },
+        {
+          "label": "低内存加载",
+          "name": "low_mem_load",
+          "shape": 7,
+          "type": "BOOLEAN",
+          "widget": {
+            "name": "low_mem_load"
+          }
+        },
+        {
+          "label": "合并LoRAs",
+          "name": "merge_loras",
+          "shape": 7,
+          "type": "BOOLEAN",
+          "widget": {
+            "name": "merge_loras"
+          }
+        }
+      ],
+      "outputs": [
+        {
+          "label": "lora",
+          "name": "lora",
+          "type": "WANVIDLORA",
+          "links": [
+            2934
+          ]
+        }
+      ],
+      "properties": {
+        "cnr_id": "ComfyUI-WanVideoWrapper",
+        "ver": "b982b4ef0c41cb1c83ae53980860c3598a53814e",
+        "Node name for S&R": "WanVideoLoraSelect",
+        "ue_properties": {
+          "version": "7.5.2",
+          "widget_ue_connectable": {},
+          "input_ue_unconnectable": {}
+        }
+      },
+      "widgets_values": [
+        "infinitetalk/Wan2.1-Fun-14B-InP-HPS2.1_reward_lora_comfy.safetensors",
+        0.5000000000000001,
+        false,
+        false
+      ]
+    },
+    {
+      "id": 41,
+      "type": "WanVideoVAELoader",
+      "pos": [
+        1657.8662109375,
+        1336.85888671875
+      ],
+      "size": [
+        340.82293701171875,
+        106
+      ],
+      "flags": {},
+      "order": 11,
+      "mode": 0,
+      "inputs": [
+        {
+          "label": "编译参数",
+          "name": "compile_args",
+          "shape": 7,
+          "type": "WANCOMPILEARGS"
+        },
+        {
+          "label": "模型名称",
+          "name": "model_name",
+          "type": "COMBO",
+          "widget": {
+            "name": "model_name"
+          }
+        },
+        {
+          "label": "精度",
+          "name": "precision",
+          "shape": 7,
+          "type": "COMBO",
+          "widget": {
+            "name": "precision"
+          }
+        },
+        {
+          "label": "使用CPU缓存",
+          "name": "use_cpu_cache",
+          "shape": 7,
+          "type": "BOOLEAN",
+          "widget": {
+            "name": "use_cpu_cache"
+          }
+        }
+      ],
+      "outputs": [
+        {
+          "label": "vae",
+          "name": "vae",
+          "type": "WANVAE",
+          "links": [
+            2928,
+            2935
+          ]
+        }
+      ],
+      "properties": {
+        "cnr_id": "ComfyUI-WanVideoWrapper",
+        "ver": "b982b4ef0c41cb1c83ae53980860c3598a53814e",
+        "Node name for S&R": "WanVideoVAELoader",
+        "ue_properties": {
+          "version": "7.5.2",
+          "widget_ue_connectable": {},
+          "input_ue_unconnectable": {}
+        }
+      },
+      "widgets_values": [
+        "wan_2.1_vae.safetensors",
+        "bf16",
+        false
+      ]
+    },
+    {
+      "id": 24,
+      "type": "WanVideoTorchCompileSettings",
+      "pos": [
+        1369.84765625,
+        1171.30810546875
+      ],
+      "size": [
+        282.74609375,
+        250
+      ],
+      "flags": {},
+      "order": 12,
+      "mode": 0,
+      "inputs": [
+        {
+          "label": "后端",
+          "name": "backend",
+          "type": "COMBO",
+          "widget": {
+            "name": "backend"
+          }
+        },
+        {
+          "label": "全图模式",
+          "name": "fullgraph",
+          "type": "BOOLEAN",
+          "widget": {
+            "name": "fullgraph"
+          }
+        },
+        {
+          "label": "模式",
+          "name": "mode",
+          "type": "COMBO",
+          "widget": {
+            "name": "mode"
+          }
+        },
+        {
+          "label": "动态模式",
+          "name": "dynamic",
+          "type": "BOOLEAN",
+          "widget": {
+            "name": "dynamic"
+          }
+        },
+        {
+          "label": "dynamo缓存大小限制",
+          "name": "dynamo_cache_size_limit",
+          "type": "INT",
+          "widget": {
+            "name": "dynamo_cache_size_limit"
+          }
+        },
+        {
+          "label": "仅编译Transformer块",
+          "name": "compile_transformer_blocks_only",
+          "type": "BOOLEAN",
+          "widget": {
+            "name": "compile_transformer_blocks_only"
+          }
+        },
+        {
+          "label": "dynamo重新编译限制",
+          "name": "dynamo_recompile_limit",
+          "shape": 7,
+          "type": "INT",
+          "widget": {
+            "name": "dynamo_recompile_limit"
+          }
+        },
+        {
+          "label": "强制参数静态形状",
+          "name": "force_parameter_static_shapes",
+          "shape": 7,
+          "type": "BOOLEAN",
+          "widget": {
+            "name": "force_parameter_static_shapes"
+          }
+        },
+        {
+          "label": "允许未合并的LoRA编译",
+          "name": "allow_unmerged_lora_compile",
+          "shape": 7,
+          "type": "BOOLEAN",
+          "widget": {
+            "name": "allow_unmerged_lora_compile"
+          }
+        }
+      ],
+      "outputs": [
+        {
+          "label": "Torch编译参数",
+          "name": "torch_compile_args",
+          "type": "WANCOMPILEARGS",
+          "links": [
+            31
+          ]
+        }
+      ],
+      "properties": {
+        "cnr_id": "ComfyUI-WanVideoWrapper",
+        "ver": "f3614e6720744247f3211d60f7b9333f43572384",
+        "Node name for S&R": "WanVideoTorchCompileSettings",
+        "ue_properties": {
+          "version": "7.5.2",
+          "widget_ue_connectable": {},
+          "input_ue_unconnectable": {}
+        }
+      },
+      "widgets_values": [
+        "inductor",
+        false,
+        "default",
+        false,
+        64,
+        true,
+        128,
+        false,
+        false
+      ]
+    },
+    {
+      "id": 33,
+      "type": "WanVideoBlockSwap",
+      "pos": [
+        1369.7376708984375,
+        907.5090942382812
+      ],
+      "size": [
+        282.4002685546875,
+        202
+      ],
+      "flags": {},
+      "order": 13,
+      "mode": 0,
+      "inputs": [
+        {
+          "label": "交换块数",
+          "name": "blocks_to_swap",
+          "type": "INT",
+          "widget": {
+            "name": "blocks_to_swap"
+          }
+        },
+        {
+          "label": "卸载图像嵌入",
+          "name": "offload_img_emb",
+          "type": "BOOLEAN",
+          "widget": {
+            "name": "offload_img_emb"
+          }
+        },
+        {
+          "label": "卸载文本嵌入",
+          "name": "offload_txt_emb",
+          "type": "BOOLEAN",
+          "widget": {
+            "name": "offload_txt_emb"
+          }
+        },
+        {
+          "label": "使用非阻塞内存传输卸载",
+          "name": "use_non_blocking",
+          "shape": 7,
+          "type": "BOOLEAN",
+          "widget": {
+            "name": "use_non_blocking"
+          }
+        },
+        {
+          "label": "交换VACE块数",
+          "name": "vace_blocks_to_swap",
+          "shape": 7,
+          "type": "INT",
+          "widget": {
+            "name": "vace_blocks_to_swap"
+          }
+        },
+        {
+          "label": "预取块数",
+          "name": "prefetch_blocks",
+          "shape": 7,
+          "type": "INT",
+          "widget": {
+            "name": "prefetch_blocks"
+          }
+        },
+        {
+          "label": "启用块交换调试日志",
+          "name": "block_swap_debug",
+          "shape": 7,
+          "type": "BOOLEAN",
+          "widget": {
+            "name": "block_swap_debug"
+          }
+        }
+      ],
+      "outputs": [
+        {
+          "label": "块交换参数",
+          "name": "block_swap_args",
+          "type": "BLOCKSWAPARGS",
+          "links": [
+            32
+          ]
+        }
+      ],
+      "properties": {
+        "cnr_id": "ComfyUI-WanVideoWrapper",
+        "ver": "b982b4ef0c41cb1c83ae53980860c3598a53814e",
+        "Node name for S&R": "WanVideoBlockSwap",
+        "ue_properties": {
+          "version": "7.5.2",
+          "widget_ue_connectable": {},
+          "input_ue_unconnectable": {}
+        }
+      },
+      "widgets_values": [
+        20,
+        false,
+        false,
+        true,
+        0,
+        1,
+        false
+      ]
+    },
+    {
+      "id": 35,
+      "type": "WanVideoModelLoader",
+      "pos": [
+        1719.59326171875,
+        917.3231811523438
+      ],
+      "size": [
+        372.4309997558594,
+        338
+      ],
+      "flags": {},
+      "order": 26,
+      "mode": 0,
+      "inputs": [
+        {
+          "label": "编译参数",
+          "name": "compile_args",
+          "shape": 7,
+          "type": "WANCOMPILEARGS",
+          "link": 31
+        },
+        {
+          "label": "块交换参数",
+          "name": "block_swap_args",
+          "shape": 7,
+          "type": "BLOCKSWAPARGS",
+          "link": 32
+        },
+        {
+          "label": "lora",
+          "name": "lora",
+          "shape": 7,
+          "type": "WANVIDLORA",
+          "link": 2934
+        },
+        {
+          "label": "显存管理参数",
+          "name": "vram_management_args",
+          "shape": 7,
+          "type": "VRAM_MANAGEMENTARGS"
+        },
+        {
+          "label": "额外模型",
+          "name": "extra_model",
+          "shape": 7,
+          "type": "VACEPATH"
+        },
+        {
+          "label": "FantasyTalking模型",
+          "name": "fantasytalking_model",
+          "shape": 7,
+          "type": "FANTASYTALKINGMODEL"
+        },
+        {
+          "label": "Multitalk模型",
+          "name": "multitalk_model",
+          "shape": 7,
+          "type": "MULTITALKMODEL",
+          "link": 34
+        },
+        {
+          "label": "FantasyPortrait模型",
+          "name": "fantasyportrait_model",
+          "shape": 7,
+          "type": "FANTASYPORTRAITMODEL"
+        },
+        {
+          "label": "模型",
+          "name": "model",
+          "type": "COMBO",
+          "widget": {
+            "name": "model"
+          }
+        },
+        {
+          "label": "基础精度",
+          "name": "base_precision",
+          "type": "COMBO",
+          "widget": {
+            "name": "base_precision"
+          }
+        },
+        {
+          "label": "量化",
+          "name": "quantization",
+          "type": "COMBO",
+          "widget": {
+            "name": "quantization"
+          }
+        },
+        {
+          "label": "加载设备",
+          "name": "load_device",
+          "type": "COMBO",
+          "widget": {
+            "name": "load_device"
+          }
+        },
+        {
+          "label": "注意力模式",
+          "name": "attention_mode",
+          "shape": 7,
+          "type": "COMBO",
+          "widget": {
+            "name": "attention_mode"
+          }
+        },
+        {
+          "label": "RMS归一化函数",
+          "name": "rms_norm_function",
+          "shape": 7,
+          "type": "COMBO",
+          "widget": {
+            "name": "rms_norm_function"
+          }
+        },
+        {
+          "label": "vace_model",
+          "name": "vace_model",
+          "shape": 7,
+          "type": "VACEPATH"
+        }
+      ],
+      "outputs": [
+        {
+          "label": "模型",
+          "name": "model",
+          "type": "WANVIDEOMODEL",
+          "links": [
+            2936
+          ]
+        }
+      ],
+      "properties": {
+        "cnr_id": "ComfyUI-WanVideoWrapper",
+        "ver": "058286fc0f3b0651a2f6b68309df3f06e8332cc0",
+        "Node name for S&R": "WanVideoModelLoader",
+        "ue_properties": {
+          "version": "7.5.2",
+          "widget_ue_connectable": {},
+          "input_ue_unconnectable": {}
+        }
+      },
+      "widgets_values": [
+        "wan/Wan2_1-I2V-14B-480p_fp8_e4m3fn_scaled_KJ.safetensors",
+        "fp16",
+        "disabled",
+        "offload_device",
+        "sageattn",
+        "default"
+      ]
+    },
+    {
+      "id": 43,
+      "type": "MultiTalkModelLoader",
+      "pos": [
+        851.2774047851562,
+        1328.1029052734375
+      ],
+      "size": [
+        413.7821960449219,
+        58
+      ],
+      "flags": {
+        "collapsed": false
+      },
+      "order": 14,
+      "mode": 0,
+      "inputs": [
+        {
+          "label": "模型",
+          "name": "model",
+          "type": "COMBO",
+          "widget": {
+            "name": "model"
+          }
+        }
+      ],
+      "outputs": [
+        {
+          "label": "模型",
+          "name": "model",
+          "type": "MULTITALKMODEL",
+          "links": [
+            34
+          ]
+        }
+      ],
+      "properties": {
+        "cnr_id": "ComfyUI-WanVideoWrapper",
+        "ver": "058286fc0f3b0651a2f6b68309df3f06e8332cc0",
+        "Node name for S&R": "MultiTalkModelLoader",
+        "ue_properties": {
+          "version": "7.5.2",
+          "widget_ue_connectable": {},
+          "input_ue_unconnectable": {}
+        }
+      },
+      "widgets_values": [
+        "infinitetalk/Wan2_1-InfiniteTalk-Multi_fp8_e4m3fn_scaled_KJ.safetensors"
+      ]
+    },
+    {
+      "id": 6,
+      "type": "Reroute",
+      "pos": [
+        2951.4111328125,
+        1539.122802734375
+      ],
+      "size": [
+        75,
+        26
+      ],
+      "flags": {},
+      "order": 36,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "",
+          "type": "*",
+          "link": 2936
+        }
+      ],
+      "outputs": [
+        {
+          "name": "",
+          "type": "WANVIDEOMODEL",
+          "links": [
+            35
+          ]
+        }
+      ],
+      "properties": {
+        "showOutputText": false,
+        "horizontal": false,
+        "ue_properties": {
+          "version": "7.5.2",
+          "widget_ue_connectable": {},
+          "input_ue_unconnectable": {}
+        }
+      }
+    },
+    {
+      "id": 56,
+      "type": "easy int",
+      "pos": [
+        1690.692138671875,
+        1984.541015625
+      ],
+      "size": [
+        270,
+        58
+      ],
+      "flags": {},
+      "order": 15,
+      "mode": 0,
+      "inputs": [
+        {
+          "label": "值",
+          "name": "value",
+          "type": "INT",
+          "widget": {
+            "name": "value"
+          }
+        }
+      ],
+      "outputs": [
+        {
+          "label": "整数",
+          "name": "int",
+          "type": "INT",
+          "links": [
+            49
+          ]
+        }
+      ],
+      "properties": {
+        "cnr_id": "comfyui-easy-use",
+        "ver": "23d9c365bda79f4d45d6d6de4746b3fcd993d943",
+        "Node name for S&R": "easy int",
+        "ue_properties": {
+          "version": "7.5.2",
+          "widget_ue_connectable": {},
+          "input_ue_unconnectable": {}
+        }
+      },
+      "widgets_values": [
+        832
+      ]
+    },
+    {
+      "id": 47,
+      "type": "Note",
+      "pos": [
+        1649.6580810546875,
+        2111.079833984375
+      ],
+      "size": [
+        268.6583251953125,
+        88
+      ],
+      "flags": {},
+      "order": 16,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [],
+      "properties": {
+        "ue_properties": {
+          "version": "7.5.2",
+          "widget_ue_connectable": {},
+          "input_ue_unconnectable": {}
+        }
+      },
+      "widgets_values": [
+        "这里条件分辨率的最长边，建议不超过1280，如果跑不动就调低一点，也不建议低于832"
+      ],
+      "color": "#432",
+      "bgcolor": "#653"
+    },
+    {
+      "id": 27,
+      "type": "CLIPVisionLoader",
+      "pos": [
+        2021.7032470703125,
+        1373.0458984375
+      ],
+      "size": [
+        284.42059326171875,
+        58
+      ],
+      "flags": {},
+      "order": 17,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "clip_name",
+          "type": "COMBO",
+          "widget": {
+            "name": "clip_name"
+          }
+        }
+      ],
+      "outputs": [
+        {
+          "label": "CLIP视觉",
+          "name": "CLIP_VISION",
+          "type": "CLIP_VISION",
+          "links": [
+            13
+          ]
+        }
+      ],
+      "properties": {
+        "cnr_id": "comfy-core",
+        "ver": "0.3.26",
+        "Node name for S&R": "CLIPVisionLoader",
+        "ue_properties": {
+          "version": "7.5.2",
+          "widget_ue_connectable": {},
+          "input_ue_unconnectable": {}
+        }
+      },
+      "widgets_values": [
+        "clip_vision_h.safetensors"
+      ]
+    },
+    {
+      "id": 31,
+      "type": "GetImageRangeFromBatch",
+      "pos": [
+        2063.4423828125,
+        1589.28466796875
+      ],
+      "size": [
+        289.7056579589844,
+        102
+      ],
+      "flags": {},
+      "order": 27,
+      "mode": 0,
+      "inputs": [
+        {
+          "label": "图像",
+          "name": "images",
+          "shape": 7,
+          "type": "IMAGE",
+          "link": 28
+        },
+        {
+          "label": "遮罩",
+          "name": "masks",
+          "shape": 7,
+          "type": "MASK"
+        },
+        {
+          "label": "起始编号",
+          "name": "start_index",
+          "type": "INT",
+          "widget": {
+            "name": "start_index"
+          }
+        },
+        {
+          "label": "帧数",
+          "name": "num_frames",
+          "type": "INT",
+          "widget": {
+            "name": "num_frames"
+          }
+        }
+      ],
+      "outputs": [
+        {
+          "label": "图像",
+          "name": "IMAGE",
+          "type": "IMAGE",
+          "links": [
+            14,
+            24
+          ]
+        },
+        {
+          "label": "遮罩",
+          "name": "MASK",
+          "type": "MASK"
+        }
+      ],
+      "properties": {
+        "cnr_id": "comfyui-kjnodes",
+        "ver": "e435e999e4b1a828a6b5f6d8f037e66f4a798324",
+        "Node name for S&R": "GetImageRangeFromBatch",
+        "ue_properties": {
+          "widget_ue_connectable": {
+            "start_index": true,
+            "num_frames": true
+          },
+          "input_ue_unconnectable": {},
+          "version": "7.5.1"
+        },
+        "widget_ue_connectable": {
+          "start_index": true,
+          "num_frames": true
+        }
+      },
+      "widgets_values": [
+        0,
+        1
+      ],
+      "color": "#232",
+      "bgcolor": "#353"
+    },
+    {
+      "id": 1,
+      "type": "SetNode",
+      "pos": [
+        1180.710205078125,
+        3140.451904296875
+      ],
+      "size": [
+        210,
+        50
+      ],
+      "flags": {
+        "collapsed": true
+      },
+      "order": 32,
+      "mode": 0,
+      "inputs": [
+        {
+          "label": "输入",
+          "name": "AUDIO",
+          "type": "AUDIO",
+          "link": 1
+        }
+      ],
+      "outputs": [
+        {
+          "label": "输出",
+          "name": "*",
+          "type": "*"
+        }
+      ],
+      "title": "Set_AUDIO",
+      "properties": {
+        "previousName": "",
+        "ue_properties": {
+          "version": "7.5.2",
+          "widget_ue_connectable": {},
+          "input_ue_unconnectable": {}
+        }
+      },
+      "widgets_values": [
+        "原声裁剪"
+      ]
+    },
+    {
+      "id": 55,
+      "type": "AudioCrop",
+      "pos": [
+        1123.149658203125,
+        2954.998046875
+      ],
+      "size": [
+        216.53515625,
+        82
+      ],
+      "flags": {},
+      "order": 25,
+      "mode": 0,
+      "inputs": [
+        {
+          "label": "音频",
+          "name": "audio",
+          "type": "AUDIO",
+          "link": 2904
+        },
+        {
+          "label": "起始时间（MM:SS）",
+          "name": "start_time",
+          "type": "STRING",
+          "widget": {
+            "name": "start_time"
+          }
+        },
+        {
+          "label": "结束时间（MM:SS）",
+          "name": "end_time",
+          "type": "STRING",
+          "widget": {
+            "name": "end_time"
+          }
+        }
+      ],
+      "outputs": [
+        {
+          "label": "AUDIO",
+          "name": "AUDIO",
+          "type": "AUDIO",
+          "links": [
+            1,
+            2,
+            7,
+            54
+          ]
+        }
+      ],
+      "properties": {
+        "cnr_id": "audio-separation-nodes-comfyui",
+        "ver": "31a4567726e035097cc2d1f767767908a6fda2ea",
+        "Node name for S&R": "AudioCrop",
+        "ue_properties": {
+          "version": "7.5.2",
+          "widget_ue_connectable": {},
+          "input_ue_unconnectable": {}
+        }
+      },
+      "widgets_values": [
+        "0:00",
+        "1:00"
+      ]
+    },
+    {
+      "id": 65,
+      "type": "AudioCrop",
+      "pos": [
+        1125.228271484375,
+        2797.312744140625
+      ],
+      "size": [
+        216.53515625,
+        82
+      ],
+      "flags": {},
+      "order": 24,
+      "mode": 0,
+      "inputs": [
+        {
+          "label": "音频",
+          "name": "audio",
+          "type": "AUDIO",
+          "link": 2908
+        },
+        {
+          "label": "起始时间（MM:SS）",
+          "name": "start_time",
+          "type": "STRING",
+          "widget": {
+            "name": "start_time"
+          }
+        },
+        {
+          "label": "结束时间（MM:SS）",
+          "name": "end_time",
+          "type": "STRING",
+          "widget": {
+            "name": "end_time"
+          }
+        }
+      ],
+      "outputs": [
+        {
+          "label": "AUDIO",
+          "name": "AUDIO",
+          "type": "AUDIO",
+          "links": [
+            232
+          ]
+        }
+      ],
+      "properties": {
+        "cnr_id": "audio-separation-nodes-comfyui",
+        "ver": "31a4567726e035097cc2d1f767767908a6fda2ea",
+        "Node name for S&R": "AudioCrop",
+        "ue_properties": {
+          "version": "7.5.2",
+          "widget_ue_connectable": {},
+          "input_ue_unconnectable": {}
+        }
+      },
+      "widgets_values": [
+        "0:00",
+        "1:00"
+      ]
+    },
+    {
+      "id": 60,
+      "type": "AudioCrop",
+      "pos": [
+        1121.9910888671875,
+        2604.30517578125
+      ],
+      "size": [
+        216.53515625,
+        82
+      ],
+      "flags": {},
+      "order": 23,
+      "mode": 0,
+      "inputs": [
+        {
+          "label": "音频",
+          "name": "audio",
+          "type": "AUDIO",
+          "link": 2907
+        },
+        {
+          "label": "起始时间（MM:SS）",
+          "name": "start_time",
+          "type": "STRING",
+          "widget": {
+            "name": "start_time"
+          }
+        },
+        {
+          "label": "结束时间（MM:SS）",
+          "name": "end_time",
+          "type": "STRING",
+          "widget": {
+            "name": "end_time"
+          }
+        }
+      ],
+      "outputs": [
+        {
+          "label": "AUDIO",
+          "name": "AUDIO",
+          "type": "AUDIO",
+          "links": [
+            166
+          ]
+        }
+      ],
+      "properties": {
+        "cnr_id": "audio-separation-nodes-comfyui",
+        "ver": "31a4567726e035097cc2d1f767767908a6fda2ea",
+        "Node name for S&R": "AudioCrop",
+        "ue_properties": {
+          "version": "7.5.2",
+          "widget_ue_connectable": {},
+          "input_ue_unconnectable": {}
+        }
+      },
+      "widgets_values": [
+        "0:00",
+        "1:00"
+      ]
+    },
+    {
+      "id": 44,
+      "type": "GetNode",
+      "pos": [
+        2378.414306640625,
+        2203.879150390625
+      ],
+      "size": [
+        210,
+        58
+      ],
+      "flags": {
+        "collapsed": false
+      },
+      "order": 18,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [
+        {
+          "label": "输出",
+          "name": "INT",
+          "type": "INT",
+          "links": []
+        }
+      ],
+      "properties": {
+        "ue_properties": {
+          "version": "7.5.2",
+          "widget_ue_connectable": {},
+          "input_ue_unconnectable": {}
+        }
+      },
+      "widgets_values": [
+        "总帧数"
+      ],
+      "color": "#1b4669",
+      "bgcolor": "#29699c"
+    }
+  ],
+  "links": [
+    [
+      1,
+      55,
+      0,
+      1,
+      0,
+      "*"
+    ],
+    [
+      2,
+      55,
+      0,
+      2,
+      0,
+      "AUDIO"
+    ],
+    [
+      3,
+      46,
+      3,
+      3,
+      0,
+      "*"
+    ],
+    [
+      4,
+      11,
+      0,
+      5,
+      0,
+      "*"
+    ],
+    [
+      7,
+      55,
+      0,
+      9,
+      0,
+      "AUDIO"
+    ],
+    [
+      9,
+      30,
+      0,
+      11,
+      0,
+      "*"
+    ],
+    [
+      11,
+      46,
+      4,
+      14,
+      0,
+      "*"
+    ],
+    [
+      13,
+      27,
+      0,
+      16,
+      0,
+      "CLIP_VISION"
+    ],
+    [
+      14,
+      31,
+      0,
+      16,
+      1,
+      "IMAGE"
+    ],
+    [
+      15,
+      36,
+      0,
+      17,
+      1,
+      "LATENT"
+    ],
+    [
+      17,
+      17,
+      0,
+      19,
+      0,
+      "IMAGE"
+    ],
+    [
+      18,
+      3,
+      0,
+      20,
+      0,
+      "*"
+    ],
+    [
+      19,
+      14,
+      0,
+      21,
+      0,
+      "*"
+    ],
+    [
+      20,
+      53,
+      1,
+      22,
+      0,
+      "INT,FLOAT,IMAGE,LATENT"
+    ],
+    [
+      21,
+      28,
+      0,
+      23,
+      0,
+      "*"
+    ],
+    [
+      22,
+      30,
+      1,
+      25,
+      0,
+      "*"
+    ],
+    [
+      23,
+      30,
+      2,
+      26,
+      0,
+      "*"
+    ],
+    [
+      24,
+      31,
+      0,
+      28,
+      0,
+      "*"
+    ],
+    [
+      28,
+      46,
+      0,
+      31,
+      0,
+      "IMAGE"
+    ],
+    [
+      30,
+      29,
+      0,
+      34,
+      0,
+      "WANTEXTENCODER"
+    ],
+    [
+      31,
+      24,
+      0,
+      35,
+      0,
+      "WANCOMPILEARGS"
+    ],
+    [
+      32,
+      33,
+      0,
+      35,
+      1,
+      "BLOCKSWAPARGS"
+    ],
+    [
+      34,
+      43,
+      0,
+      35,
+      6,
+      "MULTITALKMODEL"
+    ],
+    [
+      35,
+      6,
+      0,
+      36,
+      0,
+      "WANVIDEOMODEL"
+    ],
+    [
+      36,
+      45,
+      0,
+      36,
+      1,
+      "WANVIDIMAGE_EMBEDS"
+    ],
+    [
+      37,
+      34,
+      0,
+      36,
+      2,
+      "WANVIDEOTEXTEMBEDS"
+    ],
+    [
+      38,
+      4,
+      0,
+      36,
+      3,
+      "LATENT"
+    ],
+    [
+      39,
+      5,
+      0,
+      36,
+      15,
+      "MULTITALK_EMBEDS"
+    ],
+    [
+      44,
+      23,
+      0,
+      45,
+      1,
+      "IMAGE"
+    ],
+    [
+      45,
+      16,
+      0,
+      45,
+      2,
+      "WANVIDIMAGE_CLIPEMBEDS"
+    ],
+    [
+      46,
+      20,
+      0,
+      45,
+      3,
+      "INT"
+    ],
+    [
+      47,
+      21,
+      0,
+      45,
+      4,
+      "INT"
+    ],
+    [
+      49,
+      56,
+      0,
+      46,
+      9,
+      "INT"
+    ],
+    [
+      53,
+      8,
+      0,
+      50,
+      1,
+      "AUDIO"
+    ],
+    [
+      54,
+      55,
+      0,
+      52,
+      0,
+      "AUDIO"
+    ],
+    [
+      55,
+      2,
+      0,
+      53,
+      0,
+      "INT,FLOAT,IMAGE,LATENT"
+    ],
+    [
+      56,
+      9,
+      3,
+      54,
+      0,
+      "AUDIO"
+    ],
+    [
+      166,
+      60,
+      0,
+      61,
+      0,
+      "AUDIO"
+    ],
+    [
+      193,
+      61,
+      3,
+      62,
+      0,
+      "*"
+    ],
+    [
+      215,
+      61,
+      3,
+      63,
+      0,
+      "*"
+    ],
+    [
+      220,
+      63,
+      0,
+      30,
+      1,
+      "AUDIO"
+    ],
+    [
+      232,
+      65,
+      0,
+      66,
+      0,
+      "AUDIO"
+    ],
+    [
+      239,
+      66,
+      3,
+      67,
+      0,
+      "*"
+    ],
+    [
+      250,
+      66,
+      3,
+      68,
+      0,
+      "*"
+    ],
+    [
+      257,
+      68,
+      0,
+      30,
+      2,
+      "AUDIO"
+    ],
+    [
+      365,
+      22,
+      0,
+      30,
+      7,
+      "INT"
+    ],
+    [
+      1713,
+      37,
+      0,
+      40,
+      0,
+      "WANVIDLORA"
+    ],
+    [
+      2888,
+      19,
+      0,
+      7,
+      0,
+      "IMAGE"
+    ],
+    [
+      2889,
+      19,
+      0,
+      50,
+      0,
+      "IMAGE"
+    ],
+    [
+      2891,
+      75,
+      0,
+      30,
+      0,
+      "WAV2VECMODEL"
+    ],
+    [
+      2904,
+      76,
+      2,
+      55,
+      0,
+      "AUDIO"
+    ],
+    [
+      2905,
+      59,
+      0,
+      76,
+      0,
+      "AUDIO"
+    ],
+    [
+      2906,
+      64,
+      0,
+      76,
+      1,
+      "AUDIO"
+    ],
+    [
+      2907,
+      76,
+      0,
+      60,
+      0,
+      "AUDIO"
+    ],
+    [
+      2908,
+      76,
+      1,
+      65,
+      0,
+      "AUDIO"
+    ],
+    [
+      2928,
+      41,
+      0,
+      45,
+      0,
+      "WANVAE"
+    ],
+    [
+      2934,
+      40,
+      0,
+      35,
+      2,
+      "WANVIDLORA"
+    ],
+    [
+      2935,
+      41,
+      0,
+      17,
+      0,
+      "WANVAE"
+    ],
+    [
+      2936,
+      35,
+      0,
+      6,
+      0,
+      "*"
+    ],
+    [
+      2937,
+      57,
+      0,
+      46,
+      0,
+      "IMAGE"
+    ]
+  ],
+  "groups": [
+    {
+      "id": 1,
+      "title": "声音加载处理区",
+      "bounding": [
+        800,
+        2360,
+        1286.1947021484375,
+        962.0327758789062
+      ],
+      "color": "#3f789e",
+      "font_size": 24,
+      "flags": {}
+    },
+    {
+      "id": 2,
+      "title": "视频和图像加载",
+      "bounding": [
+        800,
+        1460,
+        1280.295654296875,
+        886.4561767578125
+      ],
+      "color": "#3f789e",
+      "font_size": 24,
+      "flags": {}
+    },
+    {
+      "id": 3,
+      "title": "模型加载区",
+      "bounding": [
+        800,
+        810,
+        1527.1710205078125,
+        638.9764404296875
+      ],
+      "color": "#3f789e",
+      "font_size": 24,
+      "flags": {}
+    },
+    {
+      "id": 4,
+      "title": "最终输出",
+      "bounding": [
+        3350,
+        1470,
+        2244.34521484375,
+        1479.6790771484375
+      ],
+      "color": "#3f789e",
+      "font_size": 24,
+      "flags": {}
+    },
+    {
+      "id": 5,
+      "title": "采样区",
+      "bounding": [
+        2100,
+        1460,
+        1225.477783203125,
+        1225.9183349609375
+      ],
+      "color": "#3f789e",
+      "font_size": 24,
+      "flags": {}
+    }
+  ],
+  "config": {},
+  "extra": {
+    "links_added_by_ue": [],
+    "ue_links": [],
+    "0246.VERSION": [
+      0,
+      0,
+      4
+    ],
+    "ds": {
+      "scale": 0.34522712143931966,
+      "offset": [
+        212.89700000300067,
+        -1336.007576767936
+      ]
+    },
+    "workflowRendererVersion": "LG",
+    "frontendVersion": "1.23.4",
+    "VHS_latentpreview": false,
+    "VHS_latentpreviewrate": 0,
+    "VHS_MetadataImage": true,
+    "VHS_KeepIntermediate": true
+  },
+  "version": 0.4
+}
