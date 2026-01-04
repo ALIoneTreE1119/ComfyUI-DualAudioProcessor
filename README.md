@@ -13,7 +13,7 @@ Example: Person A speaks for 3s, Person B speaks for 2s:
 
 ## Demo
 
-https://github.com/user-attachments/assets/示例视频.mp4
+https://github.com/user-attachments/assets/9bb8f2ab-24de-4f6d-9fe4-bf95310b048f
 
 ## Nodes
 
