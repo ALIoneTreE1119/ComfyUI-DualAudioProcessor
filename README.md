@@ -21,7 +21,7 @@ https://github.com/user-attachments/assets/示例视频.mp4
 
 For two-person dialogue.
 
-![DualAudioProcessor](示例图1.png)
+![DualAudioProcessor](示例图2.png)
 
 **Inputs:**
 | Name | Type | Description |
@@ -40,7 +40,7 @@ For two-person dialogue.
 
 For 2-4 person scenarios.
 
-![MultiAudioProcessor](示例图2.png)
+![MultiAudioProcessor](示例图1.png)
 
 **Inputs:**
 | Name | Type | Required |
@@ -60,7 +60,7 @@ For 2-4 person scenarios.
 
 ```bash
 cd ComfyUI/custom_nodes
-git clone https://github.com/YOUR_USERNAME/ComfyUI-DualAudioProcessor.git
+git clone https://github.com/ALIoneTreE1119/ComfyUI-DualAudioProcessor.git
 ```
 
 Restart ComfyUI.
