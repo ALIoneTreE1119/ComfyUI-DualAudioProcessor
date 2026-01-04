@@ -1,63 +1,85 @@
 # ComfyUI-DualAudioProcessor
 
-给 InfiniteTalk 多人数字人场景用的音频处理节点。
+ComfyUI custom nodes for multi-person digital human audio processing, designed for InfiniteTalk workflows.
 
-## 干嘛用的
+## Overview
 
-做多人数字人视频的时候，需要让每个人轮流说话。这个节点把多段音频处理成等长的版本，每段音频在自己说话的时间有声音，其他时间是静音。
+When creating multi-person talking head videos, each person needs to speak in sequence. These nodes process multiple audio tracks into equal-length outputs with proper silence padding.
 
-比如 A 说 3 秒，B 说 2 秒：
-- A 的输出：3秒有声 + 2秒静音
-- B 的输出：3秒静音 + 2秒有声  
-- 合并输出：A说完B接着说，共5秒
+Example: Person A speaks for 3s, Person B speaks for 2s:
+- Output A: 3s audio + 2s silence
+- Output B: 3s silence + 2s audio
+- Merged: 5s continuous audio (A → B)
 
-## 效果展示
+## Demo
 
 https://github.com/user-attachments/assets/示例视频.mp4
 
-## 节点
+## Nodes
 
 ### DualAudioProcessor
-两个人对话用的。
+
+For two-person dialogue.
 
 ![DualAudioProcessor](示例图1.png)
 
-输入：
-- `audio_left` - 先说话的人
-- `audio_right` - 后说话的人
+**Inputs:**
+| Name | Type | Description |
+|------|------|-------------|
+| audio_left | AUDIO | First speaker's audio |
+| audio_right | AUDIO | Second speaker's audio |
 
-输出：
-- `left_padded` - 左边音频（有声+静音）
-- `right_padded` - 右边音频（静音+有声）
-- `merged` - 拼接后的完整音频
+**Outputs:**
+| Name | Type | Description |
+|------|------|-------------|
+| left_padded | AUDIO | First audio + silence padding |
+| right_padded | AUDIO | Silence padding + second audio |
+| merged | AUDIO | Concatenated audio (no silence) |
 
 ### MultiAudioProcessor
-2-4个人用的，按顺序说话。
+
+For 2-4 person scenarios.
 
 ![MultiAudioProcessor](示例图2.png)
 
-输入：
-- `audio_1`, `audio_2` - 必填
-- `audio_3`, `audio_4` - 可选
+**Inputs:**
+| Name | Type | Required |
+|------|------|----------|
+| audio_1 | AUDIO | Yes |
+| audio_2 | AUDIO | Yes |
+| audio_3 | AUDIO | No |
+| audio_4 | AUDIO | No |
 
-输出：
-- `padded_1` ~ `padded_4` - 每个人的填充音频
-- `merged` - 拼接后的完整音频
+**Outputs:**
+| Name | Type | Description |
+|------|------|-------------|
+| padded_1~4 | AUDIO | Each speaker's padded audio |
+| merged | AUDIO | All audio concatenated |
 
-## 工作流
-
-`workflow/` 文件夹里有现成的工作流可以直接用：
-- `InfiniteTalk双人数字人对口型.json` - 双人对话的完整工作流
-
-## 安装
+## Installation
 
 ```bash
 cd ComfyUI/custom_nodes
-git clone https://github.com/你的用户名/ComfyUI-DualAudioProcessor.git
+git clone https://github.com/YOUR_USERNAME/ComfyUI-DualAudioProcessor.git
 ```
 
-重启 ComfyUI 就行。
+Restart ComfyUI.
 
-## 依赖
+## Workflow
 
-ComfyUI 自带的 torch 和 torchaudio，不用额外装。
+See `workflow/InfiniteTalk双人数字人对口型.json` for a complete example.
+
+## Requirements
+
+- torch
+- torchaudio
+
+Both are included with ComfyUI by default.
+
+## Credits
+
+Based on the workflow by [YZ_金鱼](https://space.bilibili.com/14843708) on Bilibili.
+
+## License
+
+MIT
